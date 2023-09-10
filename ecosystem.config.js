@@ -5,7 +5,7 @@ module.exports = {
       port: '3000',
       exec_mode: 'fork',
       instances: 'max',
-      script: '/var/www/front/course-landing/.output/server/index.mjs'
+      script: '.output/server/index.mjs'
     }
   ]
 }
