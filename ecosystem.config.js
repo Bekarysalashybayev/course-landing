@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'your-app-name', // Replace with your app's name
+      name: 'course-landing', // Replace with your app's name
       script: 'node', // Use 'node' to run a Node.js script
       args: 'dist/server/index.js', // Path to the Nuxt 3 server entry file
       instances: 'max', // You can adjust the number of instances
