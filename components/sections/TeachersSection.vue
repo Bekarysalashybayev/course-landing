@@ -2,7 +2,7 @@
   <div class="container">
     <div class="learn">
       <div class="icon">
-        <teacher-main-icon/>
+        <img src="@/assets/img/teacher.svg" alt="teacher">
       </div>
       <div class="detail">
         <div class="title">
