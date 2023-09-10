@@ -53,6 +53,7 @@ import TeacherMainIcon from "~/components/sections/teachers/TeacherMainIcon.vue"
 
     .icon {
       max-width: 100%;
+      flex: 0 0 auto;
     }
   }
 }
