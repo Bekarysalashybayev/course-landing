@@ -1,0 +1,28 @@
+@import "reset.css";
+@import "fonts.css";
+
+:root {
+    --top-height: 7rem;
+}
+
+html {
+    font-family: 'Poppins', 'Inter', 'Raleway', 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    word-spacing: 1px !important;;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh !important;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    min-width: 320px;
+}
