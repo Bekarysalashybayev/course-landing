@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="header d-flex-center">
         <be-logo class="logo" v-show="isMobile"/>
-        <div :class="['header-inner d-flex-center', isMobile && 'mobile', open && 'open']">
+        <div :class="['header-inner d-flex-center mobile', isMobile && 'mobile', open && 'open']">
           <be-logo class="logo" v-show="!isMobile"/>
           <ul class="links d-flex-center">
             <li :class="['link', i === 0 && 'active']"
@@ -34,9 +34,9 @@ import BeButton from "~/components/el/BeButton.vue";
 import BurgerButton from "~/components/el/BurgerButton.vue";
 import {useWindowSize} from '@vueuse/core'
 
-import { useWindowScroll } from '@vueuse/core'
+import {useWindowScroll} from '@vueuse/core'
 
-const { y } = useWindowScroll()
+const {y} = useWindowScroll()
 
 const {width} = useWindowSize()
 const MOBILE_SIZE = ref(900.1)
@@ -48,9 +48,9 @@ const isMobile = computed(() => {
 
 
 watch(() => open.value, (value: boolean) => {
-  if (value && isMobile.value){
+  if (value && isMobile.value) {
     document.body.style.overflow = 'hidden'
-  }else {
+  } else {
     document.body.style.overflow = 'auto'
   }
 })
@@ -110,47 +110,49 @@ header {
       flex: 0 0 100%;
       justify-content: space-between;
 
-      &.mobile {
-        position: fixed;
-        top: var(--top-height);
-        left: 200%;
-        bottom: 0;
-        right: 0;
-        background-color: $head-bg-color;
-        flex-direction: column;
-        justify-content: normal;
-        overflow-y: auto;
-        z-index: 9999;
-        transition: left ease 1s;
-
-        &:before, &:after {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: $color-5;
-          z-index: -1;
-        }
-
-        &:after {
+      @media screen and (max-width: $mobile) {
+        &.mobile {
+          position: fixed;
+          top: var(--top-height);
+          left: 200%;
+          bottom: 0;
+          right: 0;
           background-color: $head-bg-color;
-        }
-
-        &.open {
-          left: 0;
-        }
-
-        ul.links {
-          margin-top: 2rem;
           flex-direction: column;
-        }
+          justify-content: normal;
+          overflow-y: auto;
+          z-index: 9999;
+          transition: left ease 1s;
 
-        .btn-list {
-          flex-direction: column;
-          gap: 3rem;
-          margin-bottom: 2rem;
+          &:before, &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $color-5;
+            z-index: -1;
+          }
+
+          &:after {
+            background-color: $head-bg-color;
+          }
+
+          &.open {
+            left: 0;
+          }
+
+          ul.links {
+            margin-top: 2rem;
+            flex-direction: column;
+          }
+
+          .btn-list {
+            flex-direction: column;
+            gap: 3rem;
+            margin-bottom: 2rem;
+          }
         }
       }
     }
