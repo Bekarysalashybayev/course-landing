@@ -4,7 +4,7 @@
       <main-header/>
     </div>
     <slot/>
-<!--    <div>FOOTER</div>-->
+    <main-footer/>
   </div>
 
 </template>
@@ -12,13 +12,14 @@
 <script setup lang="ts">
 
 import MainHeader from "~/components/menu/MainHeader.vue";
+import MainFooter from "~/components/menu/MainFooter.vue";
 </script>
 
 <style scoped lang="scss">
 @use "@/assets/scss/colors" as *;
 
 .wrapper {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 
   .main-header {
     background-color: $color-5;

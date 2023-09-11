@@ -99,7 +99,8 @@ header {
   white-space: nowrap;
 
   &.sticky {
-    background-color: $color-7;
+    border-bottom: 1px solid $color-7;
+    //background-color: $color-7;
     transition: background-color ease 1s;
   }
 
