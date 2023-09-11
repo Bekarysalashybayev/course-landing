@@ -206,5 +206,6 @@
 svg {
   width: 50rem;
   height: 50rem;
+  max-width: 100%;
 }
 </style>

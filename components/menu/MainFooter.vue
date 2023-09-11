@@ -218,13 +218,14 @@ footer {
     background-image: unset;
     background-color: $head-bg-color;
     padding: 3rem 0 1rem;
+  }
 
+  @media screen and (max-width: 670px) {
     .desktop {
       display: none;
     }
-
     .footer__list {
-        justify-content: flex-start;
+      justify-content: flex-start;
     }
   }
 }
