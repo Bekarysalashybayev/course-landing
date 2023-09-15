@@ -27,7 +27,7 @@ export default defineNuxtConfig({
       // See IntersectionObserver documentation
     }
   },
-  buildModules: ['@averjs/nuxt-compression'],
+  serverMiddleware: ['compression'],
   vite: {
     build: {
       sourcemap: true,
