@@ -4,7 +4,7 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <img width="778" height="802" src="@/assets/img/people-min.png" alt="" class="people-img">
+    <img width="1556" height="1604" src="@/assets/img/people-min.png" alt="" class="people-img" data-not-lazy>
   </div>
 </template>
 
