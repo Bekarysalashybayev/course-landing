@@ -1,22 +1,22 @@
 <template>
   <div class="course">
     <div class="course__head">
-      <img data-src="@/assets/img/Course-delete.svg" alt="course" v-lazy-load/>
+      <img src="@/assets/img/Course-delete.svg" alt="course"/>
       <div class="users">
         <div class="user">
-          <img data-src="@/assets/img/user1.svg" alt="user" v-lazy-load>
+          <img src="@/assets/img/user1.svg" alt="user">
         </div>
         <div class="user">
-          <img data-src="@/assets/img/user2.svg" alt="user" v-lazy-load>
+          <img src="@/assets/img/user2.svg" alt="user">
         </div>
         <div class="user">
-          <img data-src="@/assets/img/user3.svg" alt="user" v-lazy-load>
+          <img src="@/assets/img/user3.svg" alt="user">
         </div>
         <div class="user">
-          <img data-src="@/assets/img/user4.svg" alt="user" v-lazy-load>
+          <img src="@/assets/img/user4.svg" alt="user">
         </div>
         <div class="user">
-          <img data-src="@/assets/img/user5.svg" alt="user" v-lazy-load>
+          <img src="@/assets/img/user5.svg" alt="user">
         </div>
         <span>+40 students</span>
       </div>

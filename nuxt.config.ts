@@ -7,12 +7,12 @@ export default defineNuxtConfig({
   ],
   lazyLoad: {
     // These are the default values
-    images: false,
+    images: true,
     videos: true,
     audios: true,
     iframes: true,
     native: false,
-    directiveOnly: true,
+    directiveOnly: false,
 
     // Default image must be in the public folder
     // @ts-ignore
