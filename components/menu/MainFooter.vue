@@ -7,7 +7,7 @@
             <div class="title">
               <be-logo/>
             </div>
-            <a href="#" class="subtitle">
+            <a href="https://2gis.kz/almaty/geo/9430047375158324?m=76.958326%2C43.253854%2F16" target="_blank" class="subtitle">
               <div class="d-with-icon">
                 <address-icon/>
                 <div>
@@ -15,7 +15,7 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="subtitle">
+            <a href="tel:77056858629" class="subtitle">
               <div class="d-with-icon">
                 <phoone-icon/>
                 <div>
@@ -23,15 +23,15 @@
                 </div>
               </div>
             </a>
-            <a href="#" class="subtitle">
+            <div class="subtitle">
               <div class="d-with-icon">
                 <clock-icon/>
                 <div>
                   Рабочие время: 24/7
                 </div>
               </div>
-            </a>
-            <a href="#" class="subtitle">
+            </div>
+            <a href="mailto:info@testhub.kz" class="subtitle">
               <div class="d-with-icon">
                 <email-icon/>
                 <div>
@@ -44,16 +44,16 @@
             <div class="title">
               Услуги
             </div>
-            <a href="#" class="subtitle">
+            <a href="/test" class="subtitle">
               Тесты
             </a>
-            <a href="#" class="subtitle">
+            <a href="/plan" class="subtitle">
               Индивидуальный план
             </a>
-            <a href="#" class="subtitle">
+            <a href="/courses" class="subtitle">
               Курсы
             </a>
-            <a href="#" class="subtitle">
+            <a href="/instruments" class="subtitle">
               Инструменты
             </a>
           </div>
@@ -61,16 +61,16 @@
             <div class="title">
               Сотрудничество
             </div>
-            <a href="#" class="subtitle">
+            <a href="/school" class="subtitle">
               Для школ
             </a>
-            <a href="#" class="subtitle">
+            <a href="/parents" class="subtitle">
               Родителям
             </a>
-            <a href="#" class="subtitle">
+            <a href="/teachers" class="subtitle">
               Преподавателям
             </a>
-            <a href="#" class="subtitle">
+            <a href="/instruction" class="subtitle">
               Инструкция
             </a>
           </div>
@@ -78,16 +78,16 @@
             <div class="title">
               Компания
             </div>
-            <a href="#" class="subtitle">
+            <a href="/about" class="subtitle">
               О нас
             </a>
-            <a href="#" class="subtitle">
+            <a href="/blog" class="subtitle">
               Блог
             </a>
-            <a href="#" class="subtitle">
+            <a href="/faq" class="subtitle">
               FAQ
             </a>
-            <a href="#" class="subtitle">
+            <a href="/contacts" class="subtitle">
               Контакты
             </a>
           </div>
@@ -168,24 +168,25 @@ footer {
           line-height: 1.6rem;
         }
 
-        .subtitle {
-          display: block;
-          color: inherit;
-          font: inherit;
-
-          &:hover {
-            text-decoration: underline !important;
-          }
-
-          &:not(:last-child) {
-            margin-bottom: 1.5rem;
-          }
-
-          span {
-            font-weight: 500;
-          }
-        }
       }
+    }
+
+    .subtitle {
+      display: block;
+      color: inherit;
+      font: inherit;
+
+      &:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
+
+      span {
+        font-weight: 500;
+      }
+    }
+
+    a:hover {
+      text-decoration: underline !important;
     }
 
     &__social {
