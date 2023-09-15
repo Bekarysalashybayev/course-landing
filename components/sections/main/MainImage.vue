@@ -4,16 +4,18 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <img width="1556" height="1604" src="@/assets/img/people-min.png" alt="" class="people-img" data-not-lazy>
+    <img width="1556" height="1604" :src="MainPicture" alt="" class="people-img" data-not-lazy>
   </div>
 </template>
 
 <script setup lang="ts">
-
 import TestCount from "~/components/sections/main/TestCount.vue";
 import TestPlan from "~/components/sections/main/TestPlan.vue";
 import TestCourses from "~/components/sections/main/TestCourses.vue";
 import TestIcon from "~/components/sections/main/TestIcon.vue";
+import MainPicture from "~/assets/img/people-min.png"
+
+
 </script>
 
 <style scoped lang="scss">
