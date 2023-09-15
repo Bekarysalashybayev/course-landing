@@ -2,7 +2,10 @@
   <div class="container">
     <div class="learn">
       <div class="icon">
-        <img src="@/assets/img/teacher.svg" alt="teacher">
+        <img
+            data-src="@/assets/img/teacher.svg"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E"
+            width="100" alt="teacher" v-lazy-load>
       </div>
       <div class="detail">
         <div class="title">
@@ -16,11 +19,6 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-
-import TeacherMainIcon from "~/components/sections/teachers/TeacherMainIcon.vue";
-</script>
 
 <style scoped lang="scss">
 @use "@/assets/scss/colors" as *;

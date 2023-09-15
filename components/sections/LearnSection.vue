@@ -18,7 +18,7 @@
         <div class="second"></div>
         <div class="third"></div>
         <div class="fourth"></div>
-        <img src="@/assets/img/learn-delete.png" alt="learn">
+        <img data-src="@/assets/img/learn-delete.png" alt="learn" v-lazy-load>
       </div>
     </div>
   </div>
