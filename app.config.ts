@@ -1,5 +1,8 @@
 export default defineAppConfig({
     title: "Testhub",
+    htmlAttrs: {
+        lang: 'en',
+    },
     meta: [
         {
             hid: 'description',
