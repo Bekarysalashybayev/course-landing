@@ -28,13 +28,16 @@ export default defineNuxtConfig({
     }
   },
   buildModules: ['@averjs/nuxt-compression'],
-  // vite: {
-  //   css: {
-  //     preprocessorOptions: {
-  //       scss: {
-  //         additionalData: '@use "@/assets/scss/base.scss" as *;'
-  //       }
-  //     }
-  //   }
-  // }
+  vite: {
+    build: {
+      sourcemap: true,
+    },
+    // css: {
+    //   preprocessorOptions: {
+    //     scss: {
+    //       additionalData: '@use "@/assets/scss/base.scss" as *;'
+    //     }
+    //   }
+    // }
+  }
 })
