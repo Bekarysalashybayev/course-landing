@@ -28,48 +28,15 @@
 
 <script setup lang="ts">
 import MainSection from "~/components/sections/MainSection.vue";
-// import TestCategoriesSection from "~/components/sections/TestCategoriesSection.vue";
-// import TrialTesterSection from "~/components/sections/TrialTesterSection.vue";
-// import OnlineCoursesSection from "~/components/sections/OnlineCoursesSection.vue";
-// import StaffTrainingSection from "~/components/sections/StaffTrainingSection.vue";
-// import EducationSection from "~/components/sections/EducationSection.vue";
-// import WhySection from "~/components/sections/WhySection.vue";
-// import LearnSection from "~/components/sections/LearnSection.vue";
-// import TeachersSection from "~/components/sections/TeachersSection.vue";
+import TestCategoriesSection from "~/components/sections/TestCategoriesSection.vue";
+import TrialTesterSection from "~/components/sections/TrialTesterSection.vue";
+import OnlineCoursesSection from "~/components/sections/OnlineCoursesSection.vue";
+import StaffTrainingSection from "~/components/sections/StaffTrainingSection.vue";
+import EducationSection from "~/components/sections/EducationSection.vue";
+import WhySection from "~/components/sections/WhySection.vue";
+import LearnSection from "~/components/sections/LearnSection.vue";
+import TeachersSection from "~/components/sections/TeachersSection.vue";
 
-import { defineAsyncComponent } from 'vue';
-
-const TestCategoriesSection = defineAsyncComponent(() =>
-    import('~/components/sections/TestCategoriesSection.vue')
-);
-
-const TrialTesterSection = defineAsyncComponent(() =>
-    import('~/components/sections/TrialTesterSection.vue')
-);
-
-const OnlineCoursesSection = defineAsyncComponent(() =>
-    import('~/components/sections/OnlineCoursesSection.vue')
-);
-
-const StaffTrainingSection = defineAsyncComponent(() =>
-    import('~/components/sections/StaffTrainingSection.vue')
-);
-
-const EducationSection = defineAsyncComponent(() =>
-    import('~/components/sections/EducationSection.vue')
-);
-
-const WhySection = defineAsyncComponent(() =>
-    import('~/components/sections/WhySection.vue')
-);
-
-const LearnSection = defineAsyncComponent(() =>
-    import('~/components/sections/LearnSection.vue')
-);
-
-const TeachersSection = defineAsyncComponent(() =>
-    import('~/components/sections/TeachersSection.vue')
-);
 </script>
 
 <style scoped lang="scss">

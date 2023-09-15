@@ -13,7 +13,9 @@
     "nuxt-lazy-load": "^3.0.4"
   },
   "devDependencies": {
+    "@averjs/nuxt-compression": "^1.2.2",
     "@nuxt/devtools": "latest",
+    "install": "^0.13.0",
     "nuxt": "^3.7.1",
     "sass": "^1.66.1"
   }
