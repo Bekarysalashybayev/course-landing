@@ -27,16 +27,12 @@ export default defineNuxtConfig({
       // See IntersectionObserver documentation
     }
   },
-  serverMiddleware: ['compression'],
+  nitro: {
+    compressPublicAssets: true,
+  },
   vite: {
     build: {
       sourcemap: true,
-
-      terserOptions: {
-        compress: {
-          drop_console: true, // Remove console.log statements
-        },
-      },
     },
     // css: {
     //   preprocessorOptions: {
