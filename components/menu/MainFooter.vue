@@ -93,16 +93,16 @@
           </div>
         </div>
         <div class="footer__social">
-          <a href="#">
+          <a href="https://web.telegram.org/">
             <telegram-icon/>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/">
             <instagram-icon/>
           </a>
-          <a href="#">
+          <a href="https://ru-ru.facebook.com/">
             <facebook-icon/>
           </a>
-          <a href="#">
+          <a href="https://web.whatsapp.com/">
             <whatsapp-icon/>
           </a>
         </div>
