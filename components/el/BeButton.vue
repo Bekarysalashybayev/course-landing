@@ -1,5 +1,5 @@
 <template>
-  <button :class="[classes]">
+  <button :class="['be-button', classes]">
     <slot/>
   </button>
 </template>
@@ -31,7 +31,7 @@ const classes = computed(() => {
 <style scoped lang="scss">
 @use "@/assets/scss/colors" as *;
 
-button {
+.be-button {
   font-size: 2rem;
   line-height: 1;
   font-weight: 600;
