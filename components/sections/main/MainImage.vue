@@ -63,7 +63,7 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
 
   .people-img {
     height: 100% !important;
-    width: unset;
+    width: auto;
   }
 
   @media screen and (max-width: $mobile) {

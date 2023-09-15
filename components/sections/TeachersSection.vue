@@ -46,6 +46,11 @@ import TeacherMainIcon from "~/components/sections/teachers/TeacherMainIcon.vue"
   .icon {
     flex: 0 0 63.7rem;
     max-width: 50%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 
   @media screen and (max-width: $mobile) {
