@@ -4,7 +4,7 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <img width="200" height="200" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
+    <img width="200" height="200" src="@/assets/img/picture.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
   </div>
 </template>
 
@@ -74,6 +74,8 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
 
     .people-img, img, picture {
       order: 1;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 
     .item {
