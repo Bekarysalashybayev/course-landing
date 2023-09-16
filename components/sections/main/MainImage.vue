@@ -4,10 +4,10 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <picture class="people-img" data-not-lazy>
-      <source srcset="@/assets/img/people.png" media="(min-width: 545px)" />
-      <img width="296" height="356" src="@/assets/img/people-768.png" alt="people" data-not-lazy/>
-    </picture>
+<!--    <picture class="people-img" data-not-lazy>-->
+<!--      <source srcset="@/assets/img/people.png" media="(min-width: 545px)" />-->
+<!--      <img width="296" height="356" src="@/assets/img/people-768.png" alt="people" data-not-lazy/>-->
+<!--    </picture>-->
 <!--    <img width="778" height="802" src="@/assets/img/people.png" alt="" class="people-img" data-not-lazy>-->
   </div>
 </template>
