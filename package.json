@@ -9,7 +9,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/image": "^1.0.0-rc.2",
     "@vueuse/core": "^10.4.1",
     "nuxt-lazy-load": "^3.0.4"
   },

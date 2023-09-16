@@ -40,7 +40,6 @@
 </template>
 
 <script setup lang="ts">
-import TrialMainIcon from "~/components/sections/trial/TrialMainIcon.vue";
 import BeAlert from "~/components/el/BeAlert.vue";
 import BeIconText from "~/components/el/BeIconText.vue";
 import Icon1 from "~/components/icons/Icon-1.vue";

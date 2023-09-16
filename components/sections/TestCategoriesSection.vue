@@ -44,11 +44,10 @@
 </template>
 
 <script setup lang="ts">
-
-import FullIcon from "~/components/sections/test-categories/FullIcon.vue";
 import ByLessonIcon from "~/components/sections/test-categories/ByLessonIcon.vue";
 import QuizIcon from "~/components/sections/test-categories/QuizIcon.vue";
 import FlashIcon from "~/components/sections/test-categories/FlashIcon.vue";
+
 </script>
 
 <style scoped lang="scss">
