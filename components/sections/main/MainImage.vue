@@ -19,7 +19,7 @@ const show = ref(false)
 
 setTimeout(() => {
   show.value = true
-}, 3000)
+}, 500)
 </script>
 
 <style scoped lang="scss">
