@@ -8,7 +8,7 @@
 <!--      <source srcset="@/assets/img/people.png" media="(min-width: 545px)" />-->
 <!--      <img width="296" height="356" src="@/assets/img/people-768.png" alt="people" data-not-lazy/>-->
 <!--    </picture>-->
-<!--    <img width="778" height="802" src="@/assets/img/people.png" alt="" class="people-img" data-not-lazy>-->
+    <img width="389" height="401" src="@/assets/img/picture-1.png" alt="" class="people-img" data-not-lazy>
   </div>
 </template>
 
@@ -78,6 +78,8 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
 
     .people-img, img, picture {
       order: 1;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 
     .item {
