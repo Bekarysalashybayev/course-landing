@@ -2,7 +2,7 @@
   <div class="container">
     <div class="trial">
       <div class="img">
-        <img src="@/assets/img/trial-main.png" alt="trial-main.svg">
+        <img src="@/assets/img/trial-main.png" alt="trial-main.png">
       </div>
       <div class="trial__content">
         <be-alert>Online Test</be-alert>
