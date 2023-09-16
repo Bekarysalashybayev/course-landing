@@ -11,7 +11,7 @@
         <div class="test-categories__content-list">
           <div class="test-categories__content-list-item">
             <div class="icon">
-              <img src="@/assets/img/full-icon.svg" alt="full-icon.svg">
+              <img src="@/assets/img/full-icon.png" alt="full-icon.svg">
             </div>
             <div class="i-title">Пробный</div>
             <div class="i-text">One powerful online software suite that combines</div>
