@@ -16,11 +16,11 @@ export default defineAppConfig({
             type: 'image/svg+xml',
             href: '/favicon.svg'
         },
-        // {
-        //     rel: 'preload',
-        //     as: 'image',
-        //     href: '/title-line.svg'
-        // },
+        {
+            rel: 'preload',
+            as: 'image',
+            href: '/title-line.svg'
+        },
         {
             rel: 'preload',
             as: 'image',
