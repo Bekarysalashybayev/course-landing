@@ -4,7 +4,11 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <img width="3112" height="3208" src="@/assets/img/people.png" alt="" class="people-img" data-not-lazy>
+    <picture class="people-img" data-not-lazy>
+      <source srcset="@/assets/img/people.png" media="(min-width: 545px)" />
+      <img width="296" height="356" src="@/assets/img/people-768.png" alt="people" data-not-lazy/>
+    </picture>
+<!--    <img width="778" height="802" src="@/assets/img/people.png" alt="" class="people-img" data-not-lazy>-->
   </div>
 </template>
 
@@ -60,7 +64,7 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
     }
   }
 
-  .people-img {
+  .people-img, img, picture {
     height: 100% !important;
     width: auto;
   }
@@ -72,7 +76,7 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
     justify-content: center;
     gap: 2rem;
 
-    .people-img {
+    .people-img, img, picture {
       order: 1;
     }
 
