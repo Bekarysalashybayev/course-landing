@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   ],
   lazyLoad: {
     // These are the default values
-    images: true,
+    images: false,
     videos: true,
     audios: true,
     iframes: true,
