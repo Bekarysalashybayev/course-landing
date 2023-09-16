@@ -77,8 +77,6 @@ import MainIcon from "~/components/sections/main/MainIcon.vue";
 
     .people-img, img, picture {
       order: 1;
-      margin-left: 2rem;
-      margin-right: 2rem;
     }
 
     .item {
