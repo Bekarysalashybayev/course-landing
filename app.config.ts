@@ -20,6 +20,11 @@ export default defineAppConfig({
             rel: 'preload',
             as: 'image',
             href: '/title-line.svg'
+        },
+        {
+            rel: 'preload',
+            as: 'image',
+            href: '/people-min.webp'
         }
     ],
 })

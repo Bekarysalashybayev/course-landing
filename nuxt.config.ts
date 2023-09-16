@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css', "~/assets/scss/base.scss"],
   modules:[
-    'nuxt-lazy-load'
+    'nuxt-lazy-load',
+    '@nuxt/image',
   ],
   lazyLoad: {
     // These are the default values
