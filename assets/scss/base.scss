@@ -59,6 +59,14 @@ html {
 }
 
 button.be-button {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 600;
+  border: 0;
+
+  &:hover {
+    opacity: .8;
+  }
 
   &.light {
     color: $color-4;

@@ -27,18 +27,3 @@ const classes = computed(() => {
 })
 
 </script>
-
-<style scoped lang="scss">
-@use "@/assets/scss/colors" as *;
-
-.be-button {
-  font-size: 2rem;
-  line-height: 1;
-  font-weight: 600;
-  border: 0;
-
-  &:hover {
-    opacity: .8;
-  }
-}
-</style>
