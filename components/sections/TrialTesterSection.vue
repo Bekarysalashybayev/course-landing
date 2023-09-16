@@ -2,7 +2,7 @@
   <div class="container">
     <div class="trial">
       <div class="img">
-        <trial-main-icon/>
+        <img src="@/assets/img/trial-main.svg" alt="trial-main.svg">
       </div>
       <div class="trial__content">
         <be-alert>Online Test</be-alert>
@@ -63,6 +63,11 @@ import BeButton from "~/components/el/BeButton.vue";
   align-items: flex-end;
   justify-content: space-between;
   gap: 2rem;
+
+  img {
+    width: 45rem;
+    height: 45.1rem;
+  }
 
   .mobile {
     display: none;

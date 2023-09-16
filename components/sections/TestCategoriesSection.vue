@@ -11,7 +11,7 @@
         <div class="test-categories__content-list">
           <div class="test-categories__content-list-item">
             <div class="icon">
-              <full-icon/>
+              <img src="@/assets/img/full-icon.svg" alt="full-icon.svg">
             </div>
             <div class="i-title">Пробный</div>
             <div class="i-text">One powerful online software suite that combines</div>
@@ -88,6 +88,13 @@ import FlashIcon from "~/components/sections/test-categories/FlashIcon.vue";
 
         .icon {
           margin-bottom: 3rem;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 7.5rem;
+            height: 7.5rem;
+          }
         }
 
         .i-title {
