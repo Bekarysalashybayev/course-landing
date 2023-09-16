@@ -4,8 +4,7 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <div class="people-img" v-if="!show"></div>
-    <img v-if="show" width="492" height="507" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
+    <img width="492" height="507" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
   </div>
 </template>
 
@@ -15,11 +14,6 @@ import TestPlan from "~/components/sections/main/TestPlan.vue";
 import TestCourses from "~/components/sections/main/TestCourses.vue";
 import TestIcon from "~/components/sections/main/TestIcon.vue";
 
-const show = ref(false)
-
-setTimeout(() => {
-  show.value = true
-}, 500)
 </script>
 
 <style scoped lang="scss">
