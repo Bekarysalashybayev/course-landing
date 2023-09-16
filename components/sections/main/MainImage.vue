@@ -4,7 +4,8 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <img width="492" height="507" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
+    <div class="people-img" v-if="!show"></div>
+    <img v-if="show" width="492" height="507" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
   </div>
 </template>
 
@@ -13,6 +14,12 @@ import TestCount from "~/components/sections/main/TestCount.vue";
 import TestPlan from "~/components/sections/main/TestPlan.vue";
 import TestCourses from "~/components/sections/main/TestCourses.vue";
 import TestIcon from "~/components/sections/main/TestIcon.vue";
+
+const show = ref(false)
+
+setTimeout(() => {
+  show.value = true
+}, 3000)
 </script>
 
 <style scoped lang="scss">
@@ -60,7 +67,11 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
     }
   }
 
-  .people-img, img, picture {
+  div.people-img {
+    width: 54.8rem;
+  }
+
+  img.people-img, img, picture {
     height: 100% !important;
     width: auto;
   }
