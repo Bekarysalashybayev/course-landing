@@ -18,21 +18,21 @@
           </div>
           <div class="test-categories__content-list-item">
             <div class="icon">
-              <by-lesson-icon/>
+              <img src="@/assets/img/by-lesson.png" alt="by-lesson.png">
             </div>
             <div class="i-title">Пәндік</div>
             <div class="i-text">One powerful online software suite that combines</div>
           </div>
           <div class="test-categories__content-list-item">
             <div class="icon">
-              <quiz-icon/>
+              <img src="@/assets/img/quiz.png" alt="quiz.png">
             </div>
             <div class="i-title">Quizzes</div>
             <div class="i-text">One powerful online software suite that combines</div>
           </div>
           <div class="test-categories__content-list-item">
             <div class="icon">
-              <flash-icon/>
+              <img src="@/assets/img/flash.png" alt="flash.png">
             </div>
             <div class="i-title">Флэш-карта</div>
             <div class="i-text">One powerful online software suite that combines</div>
@@ -42,13 +42,6 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import ByLessonIcon from "~/components/sections/test-categories/ByLessonIcon.vue";
-import QuizIcon from "~/components/sections/test-categories/QuizIcon.vue";
-import FlashIcon from "~/components/sections/test-categories/FlashIcon.vue";
-
-</script>
 
 <style scoped lang="scss">
 @use "@/assets/scss/colors" as *;
