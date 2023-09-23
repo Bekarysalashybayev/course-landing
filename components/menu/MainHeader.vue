@@ -14,10 +14,12 @@
             </li>
           </ul>
           <div class="btn-list d-flex-center">
-            <select v-model="locale" @change="changeLang">
-              <option value="kz">KZ</option>
-              <option value="ru">RU</option>
-            </select>
+            <label for="lang">
+              <select id="lang"  name="lang" v-model="locale" @change="changeLang">
+                <option value="kz">KZ</option>
+                <option value="ru">RU</option>
+              </select>
+            </label>
             <be-button btn-type="light" class="btn">
               {{ $t('header.login') }}
             </be-button>
