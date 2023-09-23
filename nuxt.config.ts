@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     ],
     i18n: {
         locales: ['kz', 'ru'],
-        defaultLocale: 'kz',
+        defaultLocale: 'ru',
         vueI18n: './service/i18n.config.ts',
     },
     lazyLoad: {
