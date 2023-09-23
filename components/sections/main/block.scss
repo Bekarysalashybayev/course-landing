@@ -27,6 +27,11 @@
     margin-top: 1rem;
     color: $color-13;
     font-size: 1.4rem;
+
+    &:deep(span) {
+      color: $primary;
+      font-weight: 550;
+    }
   }
 
   .icon {

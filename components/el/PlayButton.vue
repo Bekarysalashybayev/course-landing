@@ -14,7 +14,7 @@
         </defs>
       </svg>
     </span>
-    <span>Watch how it works</span>
+    <span>{{ $t('main.play') }}</span>
   </button>
 </template>
 

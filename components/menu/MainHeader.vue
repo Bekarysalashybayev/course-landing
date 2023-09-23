@@ -14,11 +14,15 @@
             </li>
           </ul>
           <div class="btn-list d-flex-center">
+            <select v-model="locale" @change="changeLang">
+              <option value="kz">KZ</option>
+              <option value="ru">RU</option>
+            </select>
             <be-button btn-type="light" class="btn">
-              Кіру
+              {{ $t('header.login') }}
             </be-button>
             <be-button btn-type="primary-1" class="btn">
-              Тіркелу
+              {{ $t('header.register') }}
             </be-button>
           </div>
         </div>
@@ -35,6 +39,13 @@ import BurgerButton from "~/components/el/BurgerButton.vue";
 import {useWindowSize} from '@vueuse/core'
 
 import {useWindowScroll} from '@vueuse/core'
+
+const {locale, t} = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+
+const router = useRouter()
+
+const changeLang = () => router.push(switchLocalePath(locale.value))
 
 const {y} = useWindowScroll()
 
@@ -65,7 +76,6 @@ const goTo = (link: ILink) => {
   if (isMobile.value) {
     open.value = false
   }
-  console.log(link)
 }
 
 interface ILink {
@@ -74,16 +84,16 @@ interface ILink {
 
 const links = ref<ILink[]>([
   {
-    name: 'Басты бет'
+    name: t('header.home')
   },
   {
-    name: 'Курс'
+    name: t('header.course')
   },
   {
-    name: 'Тест'
+    name: t('header.test')
   },
   {
-    name: 'Біз туралы'
+    name: t('header.about')
   }
 ])
 </script>

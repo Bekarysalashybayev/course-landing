@@ -1,7 +1,12 @@
 <template>
   <div class="container">
     <div class="online">
-      <div class="title">Онлайн <span class="line">Курстар</span></div>
+      <div class="title">
+        {{ $t('online.title.span_1') }}
+        <span class="line">
+          {{ $t('online.title.span_2') }}
+        </span>
+      </div>
 
       <div class="online__head">
         <div class="online__head-list">

@@ -1,0 +1,153 @@
+{
+  "header": {
+    "login": "Кіру",
+    "register": "Тіркелу",
+    "home": "Басты бет",
+    "course": "Курс",
+    "test": "Тест",
+    "about": "Біз туралы"
+  },
+  "footer": {
+    "contact": {
+      "address": {
+        "span_1": "Адрес:",
+        "span_2": "РК, город Алматы"
+      },
+      "phone": {
+        "span_1": "Tel:",
+        "span_2": "+705 685 8629"
+      },
+      "time": {
+        "span_1": "Рабочие время:",
+        "span_2": "24/7"
+      },
+      "email": {
+        "span_1": "Email:",
+      }
+    },
+    "service_1": {
+      "title": "Услуги",
+      "text_1": "Тесты",
+      "text_2": "Индивидуальный план",
+      "text_3": "Курсы",
+      "text_4": "Инструменты"
+    },
+    "service_2": {
+      "title": "Сотрудничество",
+      "text_1": "Для школ",
+      "text_2": "Родителям",
+      "text_3": "Преподавателям",
+      "text_4": "Инструкция"
+    },
+    "service_3": {
+      "title": "Компания",
+      "text_1": "О нас",
+      "text_2": "Блог",
+      "text_3": "FAQ",
+      "text_4": "Контакты"
+    }
+  },
+  "main": {
+    "title": {
+      "span_1": "Studying",
+      "span_2": "Online is now much easier"
+    },
+    "subtitle": "At LearnEase, we believe in the power of education that transcends boundaries. Our online platform is designed to bring the classroom experience to your fingertips, making learning a truly immersive and convenient journey.",
+    "btn": "Тегін бастау",
+    "play": "Watch how it works",
+    "count": "+200K",
+    "count-text": "Тест тапсырылды",
+    "plan": "Дайындық Жоспары",
+    "plan-text": "Әр оқушыға Бірегей",
+    "course": "Онлайн сабақтар",
+    "course-text": {
+      "span_1": "ZOOM",
+      "span_2": "аптасына",
+      "span_3": "5",
+      "span_4": "рет"
+    },
+    "course-btn": "Тегін бастау"
+  },
+  "category": {
+    "title": {
+      "span_1": "Тест",
+      "span_2": "Категориялары"
+    },
+    "subtitle": "Onlearing is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+    "full": {
+      "title": "Пробный",
+      "subtitle": "One powerful online software suite that combines"
+    },
+    "lesson": {
+      "title": "Пәндік",
+      "subtitle": "One powerful online software suite that combines"
+    },
+    "quizz": {
+      "title": "Quizzes",
+      "subtitle": "One powerful online software suite that combines"
+    },
+    "flash": {
+      "title": "Флэш-карта",
+      "subtitle": "One powerful online software suite that combines"
+    }
+  },
+  "trial": {
+    "alert": "Online Test",
+    "title": {
+      "span_1": "Пробный",
+      "span_2": "Тесттер"
+    },
+    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "btn": "Толығырақ"
+  },
+  "online": {
+    "title": {
+      "span_1": "Онлайн",
+      "span_2": "Курстар"
+    },
+    "students": "students",
+    "btn": "Enroll Now"
+  },
+  "staff": {
+    "alert": "Training",
+    "title": {
+      "span_1": "Staff",
+      "span_2": "training"
+    },
+    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space."
+  },
+  "education": {
+    "alert": "INTEGRATIONS",
+    "title": {
+      "span_1": "200+ educational tools and platform",
+      "span_2": "integrations"
+    },
+    "subtitle": "Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.",
+    "btn": "See All Integrations"
+  },
+  "why": {
+    "title": "Why You should buy gift cards?",
+    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "btn": " buy now"
+  },
+  "learn": {
+    "title": {
+      "span_1": "Everything you can do in a physical classroom,",
+      "span_2": "you can do with LearnEase"
+    },
+    "subtitle": "With LearnEase, the virtual classroom experience is elevated to match every aspect of a physical classroom. From engaging interactions with expert instructors and collaborative discussions with peers to hands-on projects and personalized learning paths."
+  },
+  "teachers": {
+    "title": {
+      "span_1": " Мұғалімдер Мен Оқушыларға Арналған",
+      "span_2": "Құралдар"
+    },
+    "subtitle": "Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit."
+  }
+}

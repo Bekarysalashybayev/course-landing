@@ -4,16 +4,18 @@
       <div class="why__content">
         <div class="detail">
           <div class="title">
-            Why You should buy gift cards ?
+            {{ $t('why.title') }}
           </div>
           <div class="list">
             <div class="list__item" v-for="i in 3" :key="i">
               <why-star-icon/>
-              <span>Teachers don’t get lost in the grid view and have a dedicated Podium space.</span>
+              <span>
+                {{ $t(`why.text_${i}`) }}
+              </span>
             </div>
           </div>
           <be-button class="btn" btn-size="large" btn-type="light" :rounded="false">
-            buy now
+            {{ $t('why.btn') }}
           </be-button>
         </div>
         <div class="icon">

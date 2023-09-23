@@ -2,10 +2,14 @@
   <div class="test-categories">
     <div class="container">
       <div class="test-categories__content">
-        <div class="title">Тест <span class="line">Категориялары</span></div>
+        <div class="title">
+          {{ $t('category.title.span_1') }}
+          <span class="line">
+            {{ $t('category.title.span_2') }}
+          </span>
+        </div>
         <div class="subtitle">
-          Onlearing is one powerful online software suite that
-          combines all the tools needed to run a successful school or office.
+          {{ $t('category.subtitle') }}
         </div>
 
         <div class="test-categories__content-list">
@@ -13,29 +17,45 @@
             <div class="icon">
               <img src="@/assets/img/full-icon.png" alt="full-icon.png">
             </div>
-            <div class="i-title">Пробный</div>
-            <div class="i-text">One powerful online software suite that combines</div>
+            <div class="i-title">
+              {{ $t('category.full.title') }}
+            </div>
+            <div class="i-text">
+              {{ $t('category.full.subtitle') }}
+            </div>
           </div>
           <div class="test-categories__content-list-item">
             <div class="icon">
               <img src="@/assets/img/by-lesson.png" alt="by-lesson.png">
             </div>
-            <div class="i-title">Пәндік</div>
-            <div class="i-text">One powerful online software suite that combines</div>
+            <div class="i-title">
+              {{ $t('category.lesson.title') }}
+            </div>
+            <div class="i-text">
+              {{ $t('category.lesson.subtitle') }}
+            </div>
           </div>
           <div class="test-categories__content-list-item">
             <div class="icon">
               <img src="@/assets/img/quiz.png" alt="quiz.png">
             </div>
-            <div class="i-title">Quizzes</div>
-            <div class="i-text">One powerful online software suite that combines</div>
+            <div class="i-title">
+              {{ $t('category.quizz.title') }}
+            </div>
+            <div class="i-text">
+              {{ $t('category.quizz.subtitle') }}
+            </div>
           </div>
           <div class="test-categories__content-list-item">
             <div class="icon">
               <img src="@/assets/img/flash.png" alt="flash.png">
             </div>
-            <div class="i-title">Флэш-карта</div>
-            <div class="i-text">One powerful online software suite that combines</div>
+            <div class="i-title">
+              {{ $t('category.flash.title') }}
+            </div>
+            <div class="i-text">
+              {{ $t('category.flash.subtitle') }}
+            </div>
           </div>
         </div>
       </div>

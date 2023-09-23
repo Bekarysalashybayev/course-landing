@@ -5,14 +5,20 @@
         <education-main-icon/>
       </div>
       <div class="education__content">
-        <div class="alert desktop">INTEGRATIONS</div>
-        <div class="title"><span>200+ educational tools and platform</span> integrations</div>
+        <div class="alert desktop">
+          {{ $t('education.alert') }}
+        </div>
+        <div class="title">
+          <span>
+            {{ $t('education.title.span_1') }}
+          </span>
+          {{ $t('education.title.span_2') }}
+        </div>
         <div class="subtitle">
-          Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student
-          information systems (SIS), and education platforms.
+          {{ $t('education.subtitle') }}
         </div>
         <be-button class="btn-more" btn-size="large" btn-type="primary">
-          See All Integrations
+          {{ $t('education.btn') }}
         </be-button>
       </div>
     </div>

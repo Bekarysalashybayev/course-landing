@@ -16,7 +16,7 @@ import MainFooter from "~/components/menu/MainFooter.vue";
 </script>
 
 <style scoped lang="scss">
-@use "@/assets/scss/colors" as *;
+@use "../assets/scss/colors" as *;
 
 .wrapper {
   font-size: 1.8rem;

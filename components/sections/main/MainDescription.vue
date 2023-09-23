@@ -1,15 +1,15 @@
 <template>
   <div class="main-description">
     <div class="title">
-      Studying <span>Online is now much easier</span>
+      {{ $t('main.title.span_1') }}
+      <span>{{ $t('main.title.span_2') }}</span>
     </div>
     <div class="subtitle">
-      At LearnEase, we believe in the power of education that transcends boundaries. Our online platform is designed to
-      bring the classroom experience to your fingertips, making learning a truly immersive and convenient journey.
+      {{ $t('main.subtitle')}}
     </div>
     <div class="btn-list">
       <be-button btn-type="primary-1" btn-size="large" class="btn">
-        Тегін бастау
+        {{ $t('main.btn') }}
       </be-button>
       <play-button class="btn-play"/>
     </div>
@@ -55,7 +55,7 @@ import PlayButton from "~/components/el/PlayButton.vue";
     gap: 3rem;
   }
 
-  @media screen and (max-width: 1160px){
+  @media screen and (max-width: 1160px) {
     max-width: 50rem;
 
     .title {
@@ -76,7 +76,7 @@ import PlayButton from "~/components/el/PlayButton.vue";
     }
   }
 
-  @media screen and (max-width: $mobile){
+  @media screen and (max-width: $mobile) {
     max-width: 100%;
   }
 }

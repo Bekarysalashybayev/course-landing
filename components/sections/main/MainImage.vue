@@ -4,8 +4,7 @@
     <test-plan class="item test-plan"/>
     <test-courses class="item test-courses"/>
     <test-icon class="item test-icon"/>
-    <main-icon class="people-img"/>
-    <img width="492" height="507" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
+    <img width="778" height="802" src="@/assets/img/people.webp" alt="" class="people-img" loading="lazy" data-not-lazy>
   </div>
 </template>
 
@@ -14,7 +13,6 @@ import TestCount from "~/components/sections/main/TestCount.vue";
 import TestPlan from "~/components/sections/main/TestPlan.vue";
 import TestCourses from "~/components/sections/main/TestCourses.vue";
 import TestIcon from "~/components/sections/main/TestIcon.vue";
-import MainIcon from "~/components/sections/main/MainIcon.vue";
 
 </script>
 

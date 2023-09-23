@@ -5,35 +5,41 @@
         <img src="@/assets/img/trial-main.png" alt="trial-main.png">
       </div>
       <div class="trial__content">
-        <be-alert>Online Test</be-alert>
-        <div class="title">Пробный <span>Тесттер</span></div>
-
+        <be-alert>
+          {{$t('trial.alert')}}
+        </be-alert>
+        <div class="title">
+          {{$t('trial.title.span_1')}}
+          <span>
+            {{ $t('trial.title.span_2')}}
+          </span>
+        </div>
         <div class="trial__content-list">
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
               <icon1/>
             </template>
-            Teachers don’t get lost in the grid view and have a dedicated Podium space.
+            {{ $t('trial.text_1') }}
           </be-icon-text>
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
               <icon2/>
             </template>
-            TA’s and presenters can be moved to the front of the class.
+            {{ $t('trial.text_2') }}
           </be-icon-text>
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
               <icon3/>
             </template>
-            Teachers don’t get lost in the grid view and have a dedicated Podium space.
+            {{ $t('trial.text_3') }}
           </be-icon-text>
         </div>
         <be-button class="btn-more desktop" btn-size="large" btn-type="primary">
-          Толығырақ
+          {{ $t('trial.btn') }}
         </be-button>
       </div>
       <be-button class="btn-more mobile" btn-size="large" btn-type="primary">
-        Толығырақ
+        {{ $t('trial.btn') }}
       </be-button>
     </div>
   </div>

@@ -18,7 +18,7 @@
         <div class="user">
           <img src="@/assets/img/user5.svg" alt="user">
         </div>
-        <span>+40 students</span>
+        <span>+40 {{ $t('online.students') }}</span>
       </div>
     </div>
     <div class="course__content">
@@ -34,7 +34,7 @@
           <span>$500</span>
         </div>
         <be-button class="btn" btn-type="primary" btn-size="medium" :rounded="false">
-          Enroll Now
+          {{ $t('online.btn') }}
         </be-button>
       </div>
     </div>

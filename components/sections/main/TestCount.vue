@@ -14,10 +14,10 @@
     </div>
     <div class="detail">
       <div class="d-title">
-        +200K
+        {{ $t('main.count') }}
       </div>
       <div class="d-subtitle">
-        Тест тапсырылды
+        {{ $t('main.count-text') }}
       </div>
     </div>
   </div>

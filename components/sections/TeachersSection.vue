@@ -6,11 +6,13 @@
       </div>
       <div class="detail">
         <div class="title">
-          Мұғалімдер Мен Оқушыларға Арналған <span>Құралдар</span>
+          {{ $t('teachers.title.span_1') }}
+         <span>
+           {{ $t('teachers.title.span_2') }}
+         </span>
         </div>
         <div class="subtitle">
-          Class has a dynamic set of teaching tools built to be deployed and used during class.
-          Teachers can handout assignments in real-time for students to complete and submit.
+          {{ $t('teachers.subtitle') }}
         </div>
       </div>
     </div>

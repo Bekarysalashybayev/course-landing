@@ -14,10 +14,10 @@
     </div>
     <div class="detail">
       <div class="d-title">
-        Дайындық Жоспары
+        {{ $t('main.plan') }}
       </div>
       <div class="d-subtitle">
-        Әр оқушыға Бірегей
+        {{ $t('main.plan-text') }}
       </div>
     </div>
   </div>

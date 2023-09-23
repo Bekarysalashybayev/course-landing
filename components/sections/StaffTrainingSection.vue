@@ -2,32 +2,44 @@
   <div class="container">
     <div class="trial">
       <div class="trial__content">
-        <be-alert class="desktop">Training</be-alert>
-        <div class="title desktop"><span>Staff</span> training</div>
+        <be-alert class="desktop">
+          {{ $t('staff.alert') }}
+        </be-alert>
+        <div class="title desktop">
+          <span>
+            {{ $t('staff.title.span_1') }}
+          </span>
+          {{ $t('staff.title.span_2') }}
+        </div>
         <div class="trial__content-list">
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
               <icon1/>
             </template>
-            Teachers don’t get lost in the grid view and have a dedicated Podium space.
+            {{ $t('staff.text_1') }}
           </be-icon-text>
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
               <icon2/>
             </template>
-            TA’s and presenters can be moved to the front of the class.
+            {{ $t('staff.text_2') }}
           </be-icon-text>
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
               <icon3/>
             </template>
-            Teachers don’t get lost in the grid view and have a dedicated Podium space.
+            {{ $t('staff.text_3') }}
           </be-icon-text>
         </div>
       </div>
-      <div class="title mobile"><span>Staff</span> training</div>
+      <div class="title mobile">
+        <span>
+          {{ $t('staff.title.span_1') }}
+        </span>
+        {{ $t('staff.title.span_2') }}
+      </div>
       <div class="img">
-        <staff-main-icon />
+        <staff-main-icon/>
       </div>
     </div>
   </div>

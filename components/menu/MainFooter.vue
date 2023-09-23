@@ -7,11 +7,15 @@
             <div class="title">
               <be-logo/>
             </div>
-            <a href="https://2gis.kz/almaty/geo/9430047375158324?m=76.958326%2C43.253854%2F16" target="_blank" class="subtitle">
+            <a href="https://2gis.kz/almaty/geo/9430047375158324?m=76.958326%2C43.253854%2F16" target="_blank"
+               class="subtitle">
               <div class="d-with-icon">
                 <address-icon/>
                 <div>
-                  <span>Адрес:</span> РК, город Алматы
+                  <span>
+                    {{ $t('footer.contact.address.span_1') }}
+                  </span>
+                  {{ $t('footer.contact.address.span_2') }}
                 </div>
               </div>
             </a>
@@ -19,7 +23,10 @@
               <div class="d-with-icon">
                 <phoone-icon/>
                 <div>
-                  <span>Tel :</span> +705 685 8629
+                  <span>
+                    {{ $t('footer.contact.phone.span_1') }}
+                  </span>
+                  {{ $t('footer.contact.phone.span_2') }}
                 </div>
               </div>
             </a>
@@ -27,7 +34,10 @@
               <div class="d-with-icon">
                 <clock-icon/>
                 <div>
-                  Рабочие время: 24/7
+                  <span>
+                    {{ $t('footer.contact.time.span_1') }}
+                  </span>
+                  {{ $t('footer.contact.time.span_2') }}
                 </div>
               </div>
             </div>
@@ -35,60 +45,63 @@
               <div class="d-with-icon">
                 <email-icon/>
                 <div>
-                  <span>Email:</span> info@testhub.kz
+                  <span>
+                    {{ $t('footer.contact.email.span_1') }}
+                  </span>
+                  info@testhub.kz
                 </div>
               </div>
             </a>
           </div>
           <div class="footer__list-item desktop">
             <div class="title">
-              Услуги
+              {{ $t('footer.service_1.title') }}
             </div>
             <a href="/test" class="subtitle">
-              Тесты
+              {{ $t('footer.service_1.text_1') }}
             </a>
             <a href="/plan" class="subtitle">
-              Индивидуальный план
+              {{ $t('footer.service_1.text_2') }}
             </a>
             <a href="/courses" class="subtitle">
-              Курсы
+              {{ $t('footer.service_1.text_3') }}
             </a>
             <a href="/instruments" class="subtitle">
-              Инструменты
+              {{ $t('footer.service_1.text_4') }}
             </a>
           </div>
           <div class="footer__list-item desktop">
             <div class="title">
-              Сотрудничество
+              {{ $t('footer.service_2.title') }}
             </div>
-            <a href="/school" class="subtitle">
-              Для школ
+            <a href="/test" class="subtitle">
+              {{ $t('footer.service_2.text_1') }}
             </a>
-            <a href="/parents" class="subtitle">
-              Родителям
+            <a href="/plan" class="subtitle">
+              {{ $t('footer.service_2.text_2') }}
             </a>
-            <a href="/teachers" class="subtitle">
-              Преподавателям
+            <a href="/courses" class="subtitle">
+              {{ $t('footer.service_2.text_3') }}
             </a>
-            <a href="/instruction" class="subtitle">
-              Инструкция
+            <a href="/instruments" class="subtitle">
+              {{ $t('footer.service_2.text_4') }}
             </a>
           </div>
           <div class="footer__list-item desktop">
             <div class="title">
-              Компания
+              {{ $t('footer.service_3.title') }}
             </div>
-            <a href="/about" class="subtitle">
-              О нас
+            <a href="/test" class="subtitle">
+              {{ $t('footer.service_3.text_1') }}
             </a>
-            <a href="/blog" class="subtitle">
-              Блог
+            <a href="/plan" class="subtitle">
+              {{ $t('footer.service_3.text_2') }}
             </a>
-            <a href="/faq" class="subtitle">
-              FAQ
+            <a href="/courses" class="subtitle">
+              {{ $t('footer.service_3.text_3') }}
             </a>
-            <a href="/contacts" class="subtitle">
-              Контакты
+            <a href="/instruments" class="subtitle">
+              {{ $t('footer.service_3.text_4') }}
             </a>
           </div>
         </div>

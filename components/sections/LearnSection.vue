@@ -4,14 +4,13 @@
       <div class="detail">
         <div class="first"></div>
         <div class="title">
-          <span>Everything you can do in a physical classroom,</span> you can do with LearnEase
+          <span>
+            {{ $t('learn.title.span_1') }}
+          </span>
+          {{ $t('learn.title.span_2') }}
         </div>
         <div class="subtitle">
-          With LearnEase, the virtual classroom experience is elevated to match every aspect of a physical classroom.
-          From
-          engaging interactions with expert instructors and collaborative discussions with peers to hands-on projects
-          and
-          personalized learning paths.
+          {{ $t('learn.subtitle')}}
         </div>
       </div>
       <div class="icon">
