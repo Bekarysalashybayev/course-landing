@@ -22,7 +22,7 @@
         "span_2": "24/7"
       },
       "email": {
-        "span_1": "Email:",
+        "span_1": "Email:"
       }
     },
     "service_1": {
@@ -149,5 +149,23 @@
       "span_2": "Құралдар"
     },
     "subtitle": "Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit."
+  },
+  "tariff": {
+    "title": "ТАРИФТАР",
+    "kaspi": "ДОСТУПНА ОПЛАТА В РАССРОЧКУ ЧЕРЕЗ КАСПИ",
+    "tariff_title_1": "Негізгі пәндер",
+    "tariff_title_2": "1 Таңдау пәні",
+    "tariff_title_3": "Pro. 5 пән",
+    "tariff_title_4": "2 Таңдау пәні",
+    "desc_1": "Онлайн ZOOM сабақтар",
+    "desc_2": "Тақырыптық тесттер",
+    "desc_3": "Пробный тестер бойынша статистика",
+    "desc_4": "Видео-сабақтар",
+    "desc_5": "Әр оқушыға Бірегей дайындық программасы",
+    "desc_6": "Пәндік тесттер",
+    "desc_7": "Флэш-карта, Quizzes",
+    "btn_text_1": "Таңдау",
+    "btn_text_2": "Тегін 1 апта",
+    "month": "/айына"
   }
 }

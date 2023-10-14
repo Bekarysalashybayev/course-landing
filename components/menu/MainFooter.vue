@@ -169,7 +169,7 @@ footer {
     &__list {
       display: flex;
       gap: 2rem;
-      justify-content: space-between;
+      justify-content: space-around;
 
       &-item {
         .title {

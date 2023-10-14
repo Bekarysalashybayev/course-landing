@@ -15,7 +15,7 @@
           </ul>
           <div class="btn-list d-flex-center">
             <label for="lang">
-              <select id="lang"  name="lang" v-model="locale" @change="changeLang">
+              <select id="lang" name="lang" v-model="locale" @change="changeLang">
                 <option value="kz">KZ</option>
                 <option value="ru">RU</option>
               </select>
@@ -78,26 +78,29 @@ const goTo = (link: ILink) => {
   if (isMobile.value) {
     open.value = false
   }
+  console.log(link)
 }
 
 interface ILink {
   name: string
 }
 
-const links = ref<ILink[]>([
-  {
-    name: t('header.home')
-  },
-  {
-    name: t('header.course')
-  },
-  {
-    name: t('header.test')
-  },
-  {
-    name: t('header.about')
-  }
-])
+const links = computed<ILink[]>(() => {
+  return ([
+    {
+      name: t('header.home')
+    },
+    {
+      name: t('header.course')
+    },
+    {
+      name: t('header.test')
+    },
+    {
+      name: t('header.about')
+    }
+  ])
+})
 </script>
 
 <style scoped lang="scss">

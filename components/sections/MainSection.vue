@@ -27,7 +27,7 @@ import MainImage from "~/components/sections/main/MainImage.vue";
   position: relative;
 
   .container {
-    padding: calc(var(--bottom-height) / 2) 1.5rem;
+    padding: calc(var(--bottom-height) / 2) 32px;
     height: 100%;
     position: relative;
   }

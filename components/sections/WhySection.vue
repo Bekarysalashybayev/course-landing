@@ -64,7 +64,7 @@ import BeButton from "~/components/el/BeButton.vue";
 
       .btn {
         margin-top: 3rem;
-        border-radius: 1rem;
+        border-radius: 8rem!important;
         color: $primary;
         text-transform: uppercase;
       }
@@ -86,9 +86,14 @@ import BeButton from "~/components/el/BeButton.vue";
         padding: 2rem 0 0;
 
         .btn {
-          border-radius: 4rem!important;
           max-width: 29.4rem;
         }
+      }
+    }
+    @media screen and (max-width: $phone-4) {
+
+      .detail {
+        align-items: flex-start;
       }
     }
   }

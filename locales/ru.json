@@ -1,11 +1,11 @@
 {
   "header": {
-    "login": "Логин",
-    "register": "Тіркелу",
-    "home": "Басты бет",
+    "login": "Вход",
+    "register": "Регистрация",
+    "home": "Главная",
     "course": "Курс",
     "test": "Тест",
-    "about": "Біз туралы"
+    "about": "О нас"
   },
   "footer": {
     "contact": {
@@ -14,7 +14,7 @@
         "span_2": "РК, город Алматы"
       },
       "phone": {
-        "span_1": "Tel:",
+        "span_1": "Тел:",
         "span_2": "+705 685 8629"
       },
       "time": {
@@ -22,7 +22,7 @@
         "span_2": "24/7"
       },
       "email": {
-        "span_1": "Email:",
+        "span_1": "Email:"
       }
     },
     "service_1": {
@@ -49,92 +49,92 @@
   },
   "main": {
     "title": {
-      "span_1": "Studying",
-      "span_2": "Online is now much easier"
+      "span_1": "Учиться",
+      "span_2": "Онлайн стало намного проще"
     },
-    "subtitle": "At LearnEase, we believe in the power of education that transcends boundaries. Our online platform is designed to bring the classroom experience to your fingertips, making learning a truly immersive and convenient journey.",
-    "btn": "Тегін бастау",
-    "play": "Watch how it works",
+    "subtitle": "Мы верим в силу образования, которое не знает границ. Наша онлайн-платформа создана для того, чтобы подготовка к экзамену была понятной и эффективной, сделав процесс обучения по-настоящему увлекательным и удобным.",
+    "btn": "Начать бесплатно",
+    "play": "Инструкция",
     "count": "+200K",
-    "count-text": "Тест тапсырылды",
-    "plan": "Дайындық Жоспары",
-    "plan-text": "Әр оқушыға Бірегей",
-    "course": "Онлайн сабақтар",
+    "count-text": "Пройденных тестов",
+    "plan": "План Подготовки",
+    "plan-text": "Для Каждого Ученика",
+    "course": "Онлайн уроки",
     "course-text": {
       "span_1": "ZOOM",
-      "span_2": "аптасына",
+      "span_2": "в неделю",
       "span_3": "5",
-      "span_4": "рет"
+      "span_4": "раз"
     },
-    "course-btn": "Тегін бастау"
+    "course-btn": "Начать бесплатно"
   },
   "category": {
     "title": {
-      "span_1": "Тест",
-      "span_2": "Категориялары"
+      "span_1": "Категории",
+      "span_2": "Тестов"
     },
-    "subtitle": "Onlearing is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+    "subtitle": "Наша платформа имееть обширную базу вопросов, а также генеративную логику. Уникальные варианты для каждого пользователя.",
     "full": {
       "title": "Пробный",
-      "subtitle": "One powerful online software suite that combines"
+      "subtitle": "Сдайте Пробный ЕНТ по 5 предметам за 210 мин."
     },
     "lesson": {
-      "title": "Пәндік",
-      "subtitle": "One powerful online software suite that combines"
+      "title": "Предметный",
+      "subtitle": "Тест по определенному предмету"
     },
     "quizz": {
       "title": "Quizzes",
-      "subtitle": "One powerful online software suite that combines"
+      "subtitle": "Отличный Тренажер для эффективного запоминания вопросов"
     },
     "flash": {
-      "title": "Флэш-карта",
-      "subtitle": "One powerful online software suite that combines"
+      "title": "Флэш-карты",
+      "subtitle": "Результативный Тренажер для формата Вопрос-Ответ"
     }
   },
   "trial": {
     "alert": "Online Test",
     "title": {
-      "span_1": "Пробный",
-      "span_2": "Тесттер"
+      "span_1": "Пробные",
+      "span_2": "Тесты"
     },
-    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "btn": "Толығырақ"
+    "text_1": "Решение разных вариантов Тестов и их Разборы, Видео разъяснения.",
+    "text_2": "Тематические Тесты после каждого Урока для закрепление урока.",
+    "text_3": "Сообщество студентов со схожими целями и Крутые преподователи которые помогут тебе.",
+    "btn": "Подробнее"
   },
   "online": {
     "title": {
       "span_1": "Онлайн",
-      "span_2": "Курстар"
+      "span_2": "Курсы"
     },
-    "students": "students",
-    "btn": "Enroll Now"
+    "students": "студентов",
+    "btn": "Записаться"
   },
   "staff": {
-    "alert": "Training",
+    "alert": "Подготовка",
     "title": {
-      "span_1": "Staff",
-      "span_2": "training"
+      "span_1": "Индивидуальные",
+      "span_2": "уроки"
     },
-    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_1": "Решение .",
     "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
     "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space."
   },
   "education": {
-    "alert": "INTEGRATIONS",
+    "alert": "ИНТЕГРАЦИИ",
     "title": {
-      "span_1": "200+ educational tools and platform",
-      "span_2": "integrations"
+      "span_1": "20+ образовательных инструментов и",
+      "span_2": "интреграции"
     },
-    "subtitle": "Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.",
-    "btn": "See All Integrations"
+    "subtitle": "Testhub обладает всеми необходимыми инструментами для онлайн обучение и предварительно интегрирована с более чем 20 инструментами, информационными системами для эффективного подготовки к экзаменам.",
+    "btn": "Начать бесплатно"
   },
   "why": {
-    "title": "Why You should buy gift cards?",
-    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "btn": " buy now"
+    "title": "Почему Вы должны пробрести Подписку?",
+    "text_1": "Видеоуроки, Домашние Задания и Тематические Тесты, Онлайн занятия в ZOOM.",
+    "text_2": "Сатистика ваших тестов, аналитика успеваемости и прогресса.",
+    "text_3": "Индивидуальный план подготовки к ЕНТ.",
+    "btn": "Начать бесплатно"
   },
   "learn": {
     "title": {
@@ -149,5 +149,36 @@
       "span_2": "Құралдар"
     },
     "subtitle": "Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit."
+  },
+  "tariff": {
+    "title": "ТАРИФТАР",
+    "kaspi": "ДОСТУПНА ОПЛАТА В РАССРОЧКУ ЧЕРЕЗ КАСПИ",
+    "tariff_title_1": "Негізгі пәндер",
+    "tariff_title_2": "1 Таңдау пәні",
+    "tariff_title_3": "Pro. 5 пән",
+    "tariff_title_4": "2 Таңдау пәні",
+    "desc_1": "Онлайн ZOOM сабақтар",
+    "desc_2": "Тақырыптық тесттер",
+    "desc_3": "Пробный тестер бойынша статистика",
+    "desc_4": "Видео-сабақтар",
+    "desc_5": "Әр оқушыға Бірегей дайындық программасы",
+    "desc_6": "Пәндік тесттер",
+    "desc_7": "Флэш-карта, Quizzes",
+    "btn_text_1": "Таңдау",
+    "btn_text_2": "Тегін 1 апта",
+    "month": "/айына"
+  },
+  "faq": {
+    "title": "FAQ",
+    "faqs": [
+      {
+        "text": "",
+        "title": ""
+      },
+      {
+        "text": "",
+        "title": ""
+      }
+    ]
   }
 }

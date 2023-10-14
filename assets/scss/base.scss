@@ -9,7 +9,7 @@ html {
   width: 100%;
   max-width: 1309px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 32px;
 }
 
 .title {
@@ -113,6 +113,13 @@ button.be-button {
   }
 }
 
+@media screen and (max-width: $phone-1) {
+  .container {
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+  }
+}
+
 @media screen and (min-width: $phone-2) {
   html {
     font-size: 7.3px;
@@ -133,13 +140,13 @@ button.be-button {
 
 @media screen and (min-width: $tab-1) {
   html {
-    font-size: 8.8px;
+    font-size: 8px;
   }
 }
 
 @media screen and (min-width: $desktop-1) {
   html {
-    font-size: 9.5px;
+    font-size: 9px;
   }
 }
 

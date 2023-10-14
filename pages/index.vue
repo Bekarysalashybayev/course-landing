@@ -19,11 +19,17 @@
     <why-section/>
   </section>
   <section class="section">
-    <learn-section />
+    <learn-section/>
   </section>
   <section class="section">
-    <teachers-section />
+    <tariff-section/>
   </section>
+  <section class="section">
+    <faq-section/>
+  </section>
+  <!--  <section class="section">-->
+  <!--    <teachers-section />-->
+  <!--  </section>-->
 </template>
 
 <script setup lang="ts">
@@ -36,6 +42,8 @@ import EducationSection from "~/components/sections/EducationSection.vue";
 import WhySection from "~/components/sections/WhySection.vue";
 import LearnSection from "~/components/sections/LearnSection.vue";
 import TeachersSection from "~/components/sections/TeachersSection.vue";
+import TariffSection from "~/components/sections/TariffSection.vue";
+import FaqSection from "~/components/sections/FaqSection.vue";
 
 </script>
 
