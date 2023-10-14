@@ -14,12 +14,7 @@
             </li>
           </ul>
           <div class="btn-list d-flex-center">
-            <label for="lang">
-              <select id="lang" name="lang" v-model="locale" @change="changeLang">
-                <option value="kz">KZ</option>
-                <option value="ru">RU</option>
-              </select>
-            </label>
+            <lang-switcher/>
             <be-button btn-type="light" class="btn">
               {{ $t('header.login') }}
             </be-button>
@@ -41,13 +36,9 @@ import BurgerButton from "~/components/el/BurgerButton.vue";
 import {useWindowSize} from '@vueuse/core'
 
 import {useWindowScroll} from '@vueuse/core'
+import LangSwitcher from "~/components/el/LangSwitcher.vue";
 
-const {locale, t} = useI18n()
-const switchLocalePath = useSwitchLocalePath()
-
-const router = useRouter()
-
-const changeLang = () => router.push(switchLocalePath(locale.value))
+const {t} = useI18n()
 
 const {y} = useWindowScroll()
 
@@ -190,7 +181,7 @@ header {
     }
 
     .btn-list {
-      gap: 1rem;
+      gap: 2rem;
     }
   }
 }
