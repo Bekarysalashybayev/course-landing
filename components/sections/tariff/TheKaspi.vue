@@ -21,7 +21,9 @@ import kaspiImg from "@/assets/img/kaspi.jpg"
   gap: 6.1rem;
 
   img {
-    flex: 0 0 25.6rem;
+    flex: 0 0 18rem;
+    max-width: 15.6rem;
+    height: auto;
   }
 
   .title {

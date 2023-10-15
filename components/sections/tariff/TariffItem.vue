@@ -42,6 +42,7 @@ defineProps<{ ti: TariffList }>()
   width: calc(25% - 30px);
   min-width: 200px;
   max-width: 400px;
+  min-height: 366.92px;
   background-color: $color-5;
 
   padding: 2.8rem 2.5rem;
@@ -79,7 +80,7 @@ defineProps<{ ti: TariffList }>()
 
     span {
       font-weight: 700;
-      font-size: 1.7rem;
+      font-size: 2.2rem;
     }
   }
 

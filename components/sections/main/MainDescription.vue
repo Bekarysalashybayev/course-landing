@@ -5,7 +5,7 @@
       <span>{{ $t('main.title.span_2') }}</span>
     </div>
     <div class="subtitle">
-      {{ $t('main.subtitle')}}
+      {{ $t('main.subtitle') }}
     </div>
     <div class="btn-list">
       <be-button btn-type="primary-1" btn-size="large" class="btn">
@@ -70,7 +70,8 @@ import PlayButton from "~/components/el/PlayButton.vue";
       gap: 2rem;
 
       .btn {
-        padding: 1rem 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         font-size: 1.8rem;
       }
     }
@@ -78,6 +79,17 @@ import PlayButton from "~/components/el/PlayButton.vue";
 
   @media screen and (max-width: $mobile) {
     max-width: 100%;
+  }
+  @media screen and (max-width: $tab-1) {
+
+    .btn-list {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .btn {
+        font-size: 1.8rem;
+      }
+    }
   }
 }
 </style>

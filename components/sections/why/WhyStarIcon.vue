@@ -6,7 +6,7 @@
 
 <style scoped lang="scss">
 svg {
-  width: 2.4rem;
-  height: 2.5rem;
+  width: 24px;
+  height: 25px;
 }
 </style>

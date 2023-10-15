@@ -102,7 +102,7 @@ import TestIcon from "~/components/sections/main/TestIcon.vue";
     }
   }
 
-  @media screen and (max-width: $phone-3){
+  @media screen and (max-width: $phone-3) {
     .block.item {
       flex-grow: 1;
       max-width: 296px;

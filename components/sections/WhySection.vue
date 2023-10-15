@@ -8,7 +8,7 @@
           </div>
           <div class="list">
             <div class="list__item" v-for="i in 3" :key="i">
-              <why-star-icon/>
+              <why-star-icon class="w-icon"/>
               <span>
                 {{ $t(`why.text_${i}`) }}
               </span>
@@ -58,6 +58,9 @@ import BeButton from "~/components/el/BeButton.vue";
           align-items: center;
           gap: 1rem;
 
+          .w-icon {
+            flex: 0 0 24px;
+          }
 
         }
       }
@@ -94,6 +97,16 @@ import BeButton from "~/components/el/BeButton.vue";
 
       .detail {
         align-items: flex-start;
+
+        .title {
+          font-size: 4.5rem;
+          white-space: balance;
+        }
+      }
+
+      .btn {
+        width: 100%;
+        max-width: 100%!important;
       }
     }
   }

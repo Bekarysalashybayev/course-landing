@@ -17,7 +17,7 @@
         <span>{{ $t('main.course-text.span_3') }}</span>
         {{ $t('main.course-text.span_4') }}
       </div>
-      <be-button btn-type="yellow" btn-size="small">
+      <be-button class="desktop" btn-type="yellow" btn-size="small">
         {{ $t('main.course-btn') }}
       </be-button>
     </div>
@@ -29,6 +29,7 @@ import BeButton from "~/components/el/BeButton.vue";
 </script>
 
 <style scoped lang="scss">
+@use "@/assets/scss/breakpoints" as *;
 @import "block";
 
 .d-subtitle {
@@ -37,6 +38,12 @@ import BeButton from "~/components/el/BeButton.vue";
 
 .icon {
   background-color: rgba(99, 123, 255, 0.1);
+}
+
+@media screen and (max-width: $mobile) {
+  .desktop {
+    display: none;
+  }
 }
 </style>
 
