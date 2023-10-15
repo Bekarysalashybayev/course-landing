@@ -98,6 +98,7 @@ const faqList = computed<{ title: string, text: string }[]>(() => ([
   }
 
   @media screen and (max-width: $tab-1) {
+
     .items {
       flex-direction: column;
       align-items: center;
@@ -105,7 +106,37 @@ const faqList = computed<{ title: string, text: string }[]>(() => ([
       .item {
         flex-grow: 1;
         max-width: 500px;
+        position: relative;
+        margin-top: 3rem;
+
+        &:last-child:after{
+          content: "";
+          position: absolute;
+          top: calc(100% + 3rem);
+
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: $primary;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: -3rem;
+
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: $primary;
+        }
       }
+    }
+  }
+
+  @media screen and (max-width: $phone-4) {
+    .faq__title {
+      text-align: left;
     }
   }
 }
