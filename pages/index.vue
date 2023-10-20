@@ -41,7 +41,6 @@ import StaffTrainingSection from "~/components/sections/StaffTrainingSection.vue
 import EducationSection from "~/components/sections/EducationSection.vue";
 import WhySection from "~/components/sections/WhySection.vue";
 import LearnSection from "~/components/sections/LearnSection.vue";
-import TeachersSection from "~/components/sections/TeachersSection.vue";
 import TariffSection from "~/components/sections/TariffSection.vue";
 import FaqSection from "~/components/sections/FaqSection.vue";
 

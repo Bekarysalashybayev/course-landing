@@ -88,24 +88,24 @@ const faqList = computed<{ title: string, text: string }[]>(() => ([
   .items {
     margin-top: 7rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 10rem;
     row-gap: 3rem;
 
     .item {
-      max-width: calc(50% - 5rem);
+      width: 100%;
+      max-width: 600px;
+
     }
   }
 
   @media screen and (max-width: $tab-1) {
 
     .items {
-      flex-direction: column;
-      align-items: center;
 
       .item {
-        flex-grow: 1;
-        max-width: 500px;
         position: relative;
         margin-top: 3rem;
 
@@ -116,7 +116,7 @@ const faqList = computed<{ title: string, text: string }[]>(() => ([
 
           left: 0;
           width: 100%;
-          height: 2px;
+          height: 1px;
           background-color: $primary;
         }
 
@@ -127,7 +127,7 @@ const faqList = computed<{ title: string, text: string }[]>(() => ([
 
           left: 0;
           width: 100%;
-          height: 2px;
+          height: 1px;
           background-color: $primary;
         }
       }

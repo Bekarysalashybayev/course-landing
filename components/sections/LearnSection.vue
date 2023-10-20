@@ -34,7 +34,7 @@
 .learn {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: .5rem;
 
   .detail {
     position: relative;
@@ -90,13 +90,13 @@
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 3.6rem;
     line-height: 1.3;
     margin-bottom: 3rem;
   }
 
   .subtitle {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 4.32rem;
     color: $color-17;
   }

@@ -17,19 +17,19 @@
         <div class="trial__content-list">
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
-              <icon1/>
+             <icon4 />
             </template>
             {{ $t('trial.text_1') }}
           </be-icon-text>
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
-              <icon2/>
+             <icon5 />
             </template>
             {{ $t('trial.text_2') }}
           </be-icon-text>
           <be-icon-text class="trial__content-list-item">
             <template v-slot:icon>
-              <icon3/>
+              <icon6 />
             </template>
             {{ $t('trial.text_3') }}
           </be-icon-text>
@@ -48,10 +48,10 @@
 <script setup lang="ts">
 import BeAlert from "~/components/el/BeAlert.vue";
 import BeIconText from "~/components/el/BeIconText.vue";
-import Icon1 from "~/components/icons/Icon-1.vue";
-import Icon2 from "~/components/icons/Icon-2.vue";
-import Icon3 from "~/components/icons/Icon-3.vue";
 import BeButton from "~/components/el/BeButton.vue";
+import Icon4 from "~/components/icons/Icon-4.vue";
+import Icon5 from "~/components/icons/Icon-5.vue";
+import Icon6 from "~/components/icons/Icon-6.vue";
 
 </script>
 

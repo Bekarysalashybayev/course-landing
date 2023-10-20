@@ -18,7 +18,7 @@
         <div class="user">
           <img src="@/assets/img/user5.svg" alt="user">
         </div>
-        <span>+40 {{ $t('online.students') }}</span>
+        <span>+40</span>
       </div>
     </div>
     <div class="course__content">
@@ -51,8 +51,8 @@ import BeButton from "~/components/el/BeButton.vue";
 @use "@/assets/scss/colors" as *;
 
 .course {
-  width: 29.6rem;
-  min-width: 29.6rem;
+  max-width: 290px;
+  min-width: 200px;
   background-color: $color-5;
   box-shadow: 0 10px 60px 0 #262D7614;
   border-radius: 1.4rem;

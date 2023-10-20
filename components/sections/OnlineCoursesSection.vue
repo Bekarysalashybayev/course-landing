@@ -113,7 +113,7 @@ const current = ref<ICategory['name']>('Барлығы')
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      gap: 3rem;
+      gap: 2.5rem;
 
       &::-webkit-scrollbar {
         height: 0;
