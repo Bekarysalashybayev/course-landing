@@ -51,7 +51,7 @@ const isMobile = computed(() => {
 })
 
 const goToTest = (name: string) => {
-  window.open('https://ent.testhub.kz/' + name, "blank");
+  window.open('https://ent.testhub.kz/' + name);
 }
 
 watch(() => open.value, (value: boolean) => {
