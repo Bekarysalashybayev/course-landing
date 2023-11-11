@@ -1,5 +1,5 @@
 <template>
-  <button :class="['be-button', classes]">
+  <button :class="['be-button', classes]" @click="$emit('click')">
     <slot/>
   </button>
 </template>
@@ -17,6 +17,8 @@ const props = withDefaults(defineProps<{
   btnType: 'primary',
   rounded: true
 })
+
+defineEmits(['click'])
 
 const classes = computed(() => {
   return {

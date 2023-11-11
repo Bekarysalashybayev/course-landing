@@ -15,10 +15,10 @@
           </ul>
           <div class="btn-list d-flex-center">
             <lang-switcher/>
-            <be-button btn-type="light" class="btn">
+            <be-button btn-type="light" class="btn" @click="goToTest('login')">
               {{ $t('header.login') }}
             </be-button>
-            <be-button btn-type="primary-1" class="btn">
+            <be-button btn-type="primary-1" class="btn" @click="goToTest('register')">
               {{ $t('header.register') }}
             </be-button>
           </div>
@@ -50,6 +50,10 @@ const isMobile = computed(() => {
   return width.value < MOBILE_SIZE.value
 })
 
+const goToTest = (name: string) => {
+  console.log(name)
+  window.location.href  = 'https://ent.testhub.kz/' + name
+}
 
 watch(() => open.value, (value: boolean) => {
   if (value && isMobile.value) {
