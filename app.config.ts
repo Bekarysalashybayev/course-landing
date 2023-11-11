@@ -8,7 +8,7 @@ export default defineAppConfig({
             hid: 'description',
             name: 'description',
             content: 'Education system.'
-        }
+        },
     ],
     link: [
         {

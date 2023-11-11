@@ -1,7 +1,7 @@
 <template>
   <div class="faq">
     <div class="container">
-      <div class="faq__title">{{ $t('faq.title') }}</div>
+      <div class="faq__title">FAQ</div>
       <div class="items">
         <faq-item class="item" v-for="(faq,i) in faqList" :key="i" :title="faq.title" :text="faq.text"/>
       </div>
