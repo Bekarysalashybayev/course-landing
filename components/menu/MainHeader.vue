@@ -1,6 +1,5 @@
 <template>
   <header :class="['d-flex-center', y > 50 && 'sticky']">
-    132
     <div class="container">
       <nav class="header d-flex-center">
         <be-logo class="logo" v-show="isMobile"/>
