@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    title: "Testhub",
+    title: "ҰБТ 2024, Онлайн Байқау Сынағы, Жаңа формат және Тегін Тесттер, Қатемен жұмыс және Пәндік тест.",
     htmlAttrs: {
         lang: 'en',
     },
@@ -7,7 +7,17 @@ export default defineAppConfig({
         {
             hid: 'description',
             name: 'description',
-            content: 'Education system.'
+            content: 'Байқау сынақтары арқылы ҰБТ-ға дайындалыңыз. Біздің сайт әртүрлі пәндер мен тақырыптар бойынша тесттер ұсынады. ҰБТ-ға дайындық деңгейінді онлайн тексер. Апта сайын Рейтингтік тесттер.'
+        },
+        {
+            hid: 'keywords',
+            name: 'keywords',
+            content: 'Байқау сынағы, тегін тесттер, ҰБТ 2024, онлайн тесттер, жаңа формат, тегін тесттер, қатемен жұмыс, пәндік тест, математика, физика, химия, информатика, биология, тарих, аққ'
+        },
+        {
+            hid: 'robots',
+            name: 'robots',
+            content: 'index, follow'
         },
     ],
     link: [
