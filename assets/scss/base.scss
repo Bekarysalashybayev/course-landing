@@ -116,6 +116,11 @@ button.be-button {
   }
 }
 
+@media screen and (max-width: $phone-3) {
+  .btn-mobile {
+    width: 100%;
+  }
+}
 @media screen and (max-width: $phone-1) {
   .container {
     padding-left: 1.5rem!important;

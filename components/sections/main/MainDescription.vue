@@ -82,6 +82,7 @@ import PlayButton from "~/components/el/PlayButton.vue";
     max-width: 100%;
   }
   @media screen and (max-width: $tab-1) {
+    min-width: 100%;
 
     .btn-list {
       flex-direction: column;

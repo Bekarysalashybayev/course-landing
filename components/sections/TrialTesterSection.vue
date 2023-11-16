@@ -38,7 +38,7 @@
           {{ $t('trial.btn') }}
         </be-button>
       </div>
-      <be-button class="btn-more mobile" btn-size="large" btn-type="primary">
+      <be-button class="btn-more mobile btn-mobile" btn-size="large" btn-type="primary">
         {{ $t('trial.btn') }}
       </be-button>
     </div>

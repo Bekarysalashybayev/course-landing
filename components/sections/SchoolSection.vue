@@ -5,9 +5,14 @@
         <img src="@/assets/img/for-school.svg" alt="for-school.svg">
       </div>
       <div class="school__content">
-        <div class="s-title">{{ $t('school.title') }}</div>
+        <div class="title">
+          {{ $t('school.title_1') }}
+          <span>{{ $t('school.title_2') }}</span>
+          {{ $t('school.title_3') }}
+          <span>{{ $t('school.title_4') }}</span>
+        </div>
         <div class="subtitle">{{ $t('school.subtitle') }}</div>
-        <be-button btn-type="primary" btn-size="large">{{ $t('school.btn_text') }}</be-button>
+        <be-button class="btn-mobile" btn-type="primary" btn-size="large">{{ $t('school.btn_text') }}</be-button>
       </div>
     </div>
   </div>
@@ -25,12 +30,6 @@ import BeButton from "~/components/el/BeButton.vue";
   color: $color-32;
   display: flex;
   gap: 9rem;
-
-  .s-title {
-    color: $color-32;
-    font-size: 4rem;
-    font-weight: 500;
-  }
 
   .subtitle {
     margin: 29px 0;
