@@ -27,7 +27,7 @@ import BeButton from "~/components/el/BeButton.vue";
 @use "@/assets/scss/colors" as *;
 
 .school {
-  color: $color-32;
+  color: $color-17;
   display: flex;
   gap: 9rem;
 
