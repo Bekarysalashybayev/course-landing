@@ -1,32 +1,46 @@
 <template>
   <main-section/>
+
   <section class="section">
+    <school-section />
+  </section>
+
+  <section class="section" id="test">
     <test-categories-section/>
   </section>
+
   <section class="section">
     <trial-tester-section/>
   </section>
-  <section class="section">
-    <online-courses-section/>
-  </section>
+
   <section class="section">
     <staff-training-section/>
   </section>
+
   <section class="section">
     <education-section/>
   </section>
+
   <section class="section">
     <why-section/>
   </section>
-  <section class="section">
-    <learn-section/>
+
+  <section class="section" id="course">
+    <online-courses-section/>
   </section>
+
+<!--  <section class="section">-->
+<!--    <learn-section/>-->
+<!--  </section>-->
+
   <section class="section">
     <tariff-section/>
   </section>
-  <section class="section">
+
+  <section class="section" id="faq">
     <faq-section/>
   </section>
+
   <!--  <section class="section">-->
   <!--    <teachers-section />-->
   <!--  </section>-->
@@ -43,6 +57,7 @@ import WhySection from "~/components/sections/WhySection.vue";
 import LearnSection from "~/components/sections/LearnSection.vue";
 import TariffSection from "~/components/sections/TariffSection.vue";
 import FaqSection from "~/components/sections/FaqSection.vue";
+import SchoolSection from "~/components/sections/SchoolSection.vue";
 
 </script>
 

@@ -4,6 +4,9 @@
 html {
   font-size: 7px;
 }
+body {
+  scroll-margin-top: calc(50px + var(--top-height));
+}
 
 .container {
   width: 100%;

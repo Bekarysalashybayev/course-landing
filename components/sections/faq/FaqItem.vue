@@ -63,6 +63,8 @@ defineProps<{
     }
 
     .faq-item__body {
+      font-size: 1.7rem;
+      font-weight: 400;
       padding: 10px 0;
       grid-template-rows: 1fr;
     }

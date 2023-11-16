@@ -28,6 +28,7 @@ import PlayButton from "~/components/el/PlayButton.vue";
 
 .main-description {
   max-width: 60rem;
+  min-width: 400px;
   position: relative;
   z-index: 10;
 

@@ -15,7 +15,7 @@
           </ul>
           <div class="btn-list d-flex-center">
             <lang-switcher/>
-            <be-button btn-type="light" class="btn" @click="goToTest('login')">
+            <be-button btn-type="light" class="btn first" @click="goToTest('login')">
               {{ $t('header.login') }}
             </be-button>
             <be-button btn-type="primary-1" class="btn" @click="goToTest('register')">
@@ -72,26 +72,35 @@ const goTo = (link: ILink) => {
   if (isMobile.value) {
     open.value = false
   }
-  console.log(link)
+  const element = document.getElementById(link.id);
+
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
 }
 
 interface ILink {
-  name: string
+  name: string,
+  id: string,
 }
 
 const links = computed<ILink[]>(() => {
   return ([
     {
-      name: t('header.home')
+      name: t('header.home'),
+      id: 'main',
     },
     {
-      name: t('header.course')
+      name: t('header.course'),
+      id: 'course',
     },
     {
-      name: t('header.test')
+      name: t('header.test'),
+      id: 'test',
     },
     {
-      name: t('header.about')
+      name: 'FAQ',
+      id: 'faq',
     }
   ])
 })
@@ -154,20 +163,35 @@ header {
           }
 
           ul.links {
+            gap: 3rem;
             margin-top: 2rem;
             flex-direction: column;
+
+            .link {
+              font-size: 18px;
+            }
           }
 
           .btn-list {
             flex-direction: column;
             gap: 3rem;
             margin-bottom: 2rem;
+
+            .btn {
+              &.first {
+                border: 1px solid $primary;
+                color: $primary;
+                background-color: transparent;
+              }
+              width: 150px;
+            }
           }
         }
       }
     }
 
     ul.links {
+      gap: 4rem;
 
       .link {
         font-size: 2rem;

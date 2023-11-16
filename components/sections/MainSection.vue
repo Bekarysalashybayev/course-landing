@@ -1,17 +1,20 @@
 <template>
-  <section class="main">
+  <section class="main" id="main">
     <div class="container">
-      <main-description/>
-      <main-image/>
+      <div class="main__content">
+        <main-description/>
+        <div class="img">
+          <img src="@/assets/img/main-bg.svg" alt="main-bg.svg"/>
+        </div>
+      </div>
+      <!--      <main-image/>-->
     </div>
     <div class="after"></div>
   </section>
 </template>
 
 <script setup lang="ts">
-
 import MainDescription from "~/components/sections/main/MainDescription.vue";
-import MainImage from "~/components/sections/main/MainImage.vue";
 </script>
 
 <style scoped lang="scss">
@@ -19,7 +22,7 @@ import MainImage from "~/components/sections/main/MainImage.vue";
 @use "@/assets/scss/colors" as *;
 
 .main {
-  --bottom-height: 20rem;
+  --bottom-height: 15rem;
   --main-height: calc(100vh - var(--top-height) - var(--bottom-height));
   margin-bottom: var(--bottom-height);
   z-index: 2;
@@ -30,6 +33,18 @@ import MainImage from "~/components/sections/main/MainImage.vue";
     padding: calc(var(--bottom-height) / 2) 32px;
     height: 100%;
     position: relative;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("@/assets/img/main-view-bg.png");
+
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
   }
 
   .after {
@@ -55,6 +70,16 @@ import MainImage from "~/components/sections/main/MainImage.vue";
 
   @media screen and (max-width: $mobile) {
     --bottom-height: 5rem;
+
+    &__content {
+      flex-wrap: wrap;
+
+      .img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    }
 
     .after {
       display: none;

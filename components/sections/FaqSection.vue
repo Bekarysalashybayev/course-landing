@@ -12,63 +12,33 @@
 <script setup lang="ts">
 import FaqItem from "~/components/sections/faq/FaqItem.vue";
 
+const {t} = useI18n()
+
 const faqList = computed<{ title: string, text: string }[]>(() => ([
   {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
+    title: t('faq.text_1'),
+    text: t('faq.answer_1'),
   },
   {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
+    title: t('faq.text_2'),
+    text: t('faq.answer_2'),
   },
   {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
+    title: t('faq.text_3'),
+    text: t('faq.answer_3'),
   },
   {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
+    title: t('faq.text_4'),
+    text: t('faq.answer_4'),
   },
   {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
+    title: t('faq.text_5'),
+    text: t('faq.answer_5'),
   },
   {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
+    title: t('faq.text_6'),
+    text: t('faq.answer_6'),
   },
-  {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
-  },
-  {
-    title: "Apakah seorang pemula bisa ikut belajar?",
-    text: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam amet aperiam at debitis deleniti eius
-    esse impedit inventore ipsam laborum, magni molestiae mollitia nulla odit officia provident rerum sapiente tenetur
-    veritatis. Accusamus deleniti eligendi, error laborum magnam nemo neque odit pariatur quae repellat, tempore totam
-    vel velit? Odit, quam.`
-  }
 ]))
 </script>
 
