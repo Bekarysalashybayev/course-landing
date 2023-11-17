@@ -10,15 +10,15 @@
   "footer": {
     "contact": {
       "address": {
-        "span_1": "Адрес:",
-        "span_2": "РК, город Алматы"
+        "span_1": "Мекен-жайы:",
+        "span_2": "ҚР, Алматы қаласы"
       },
       "phone": {
         "span_1": "Tel:",
         "span_2": "+705 685 8629"
       },
       "time": {
-        "span_1": "Рабочие время:",
+        "span_1": "Жұмыс уақыты:",
         "span_2": "24/7"
       },
       "email": {
@@ -26,35 +26,35 @@
       }
     },
     "service_1": {
-      "title": "Услуги",
-      "text_1": "Тесты",
-      "text_2": "Индивидуальный план",
-      "text_3": "Курсы",
-      "text_4": "Инструменты"
+      "title": "Қызметтер",
+      "text_1": "Тесттер",
+      "text_2": "Жеке дайындық жоспары",
+      "text_3": "Курстар",
+      "text_4": "Құралдар"
     },
     "service_2": {
-      "title": "Сотрудничество",
-      "text_1": "Для школ",
-      "text_2": "Родителям",
-      "text_3": "Преподавателям",
-      "text_4": "Инструкция"
+      "title": "Серіктестік",
+      "text_1": "Мектептер үшін",
+      "text_2": "Атаналарға",
+      "text_3": "Мұғалімдерге",
+      "text_4": "Нұсқаулық"
     },
     "service_3": {
       "title": "Компания",
-      "text_1": "О нас",
+      "text_1": "Біз туралы",
       "text_2": "Блог",
       "text_3": "FAQ",
-      "text_4": "Контакты"
+      "text_4": "Контактілер"
     }
   },
   "main": {
     "title": {
-      "span_1": "Studying",
-      "span_2": "Online is now much easier"
+      "span_1": "Дайындалыңыз",
+      "span_2": "ҰБТ-ға біздің байқау сынағымызбен бірге"
     },
-    "subtitle": "At LearnEase, we believe in the power of education that transcends boundaries. Our online platform is designed to bring the classroom experience to your fingertips, making learning a truly immersive and convenient journey.",
-    "btn": "Тегін бастау",
-    "play": "Watch how it works",
+    "subtitle": "Біздің сайт ресми стандарттарға негізделген бірегей тапсырмаларды ұсынады. Дайындық деңгейіңізді арттырыңыз, прогресті қадағалаңыз және жоғары нәтижелерге қол жеткізіңіз. Емтиханға деген сенімділік осы жерден басталады!",
+    "btn": "Тегін тапсыру",
+    "play": "Нұсқаулық",
     "count": "+200K",
     "count-text": "Тест тапсырылды",
     "plan": "Дайындық Жоспары",
@@ -73,22 +73,22 @@
       "span_1": "Тест",
       "span_2": "Категориялары"
     },
-    "subtitle": "On learning is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+    "subtitle": "Біздің платформа кең сұрақтар базасы, сондай-ақ генеративті логика бар. Әрбір пайдаланушы үшін бірегей Тесттер.",
     "full": {
       "title": "Пробный",
-      "subtitle": "One powerful online software suite that combines"
+      "subtitle": "210 минут ішінде 5 пән бойынша ҰБТ-дан сынама тест тапсырыңыз."
     },
     "lesson": {
       "title": "Пәндік",
-      "subtitle": "One powerful online software suite that combines"
+      "subtitle": "Белгілі бір пән бойынша Пәндік Тест"
     },
     "quizz": {
       "title": "Quizzes",
-      "subtitle": "One powerful online software suite that combines"
+      "subtitle": "Сұрақтарды тиімді есте сақтауға арналған тамаша Тренажер"
     },
     "flash": {
       "title": "Флэш-карта",
-      "subtitle": "One powerful online software suite that combines"
+      "subtitle": "Сұрақ-Жауап форматына арналған тиімді құрал"
     }
   },
   "trial": {
@@ -97,9 +97,9 @@
       "span_1": "Пробный",
       "span_2": "Тесттер"
     },
-    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
+    "text_1": "Тесттердің әртүрлі нұсқаларын шешу және оларды талдау, бейне(видео)) түсіндіру.",
+    "text_2": "Сіздің Үлгеріміңіздің статистикасы және Тапсырылған Тесттерді талдау.",
+    "text_3": "Апта Сайынғы Рейтингтік Тесттер.",
     "btn": "Толығырақ"
   },
   "online": {
@@ -107,34 +107,34 @@
       "span_1": "Онлайн",
       "span_2": "Курстар"
     },
-    "students": "students",
-    "btn": "Enroll Now"
+    "students": "оқушы",
+    "btn": "Жазылу"
   },
   "staff": {
-    "alert": "Training",
+    "alert": "Видео Видео-сабақтар",
     "title": {
-      "span_1": "Staff",
-      "span_2": "training"
+      "span_1": "Жеке",
+      "span_2": "сабақтар"
     },
-    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space."
+    "text_1": "ZOOM да бейне сабақтар, топтық және жеке онлайн сабақтар.",
+    "text_2": "Сабақты бекіту үшін әр сабақтан кейінгі тақырыптық тесттер.",
+    "text_3": "Ұқсас мақсаттары бар оқушылар қауымдастығы және жоғары дәрежелі оқытушылар."
   },
   "education": {
-    "alert": "INTEGRATIONS",
+    "alert": "ИНТЕГРАЦИЯЛАР",
     "title": {
-      "span_1": "200+ educational tools and platform",
-      "span_2": "integrations"
+      "span_1": "20 + білім беру құралдары және",
+      "span_2": "Интеграциялар"
     },
-    "subtitle": "Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.",
-    "btn": "See All Integrations"
+    "subtitle": "Testhub барлық қажетті құралдарға ие, және онлайн тиімді дайындалу үшін 20-дан астам құралдармен, ақпараттық жүйелермен алдын ала біріктірілген.",
+    "btn": "ТЕст тапсыру"
   },
   "why": {
-    "title": "Why You should buy gift cards?",
-    "text_1": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_2": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "text_3": "Teachers don’t get lost in the grid view and have a dedicated Podium space.",
-    "btn": " buy now"
+    "title": "Неліктен Жазылымды сатып алу керек?",
+    "text_1": "Бейне сабақтар, үй тапсырмалары және тақырыптық тесттер, ZOOM-дағы Онлайн сабақтар.",
+    "text_2": "Сіздің тесттеріңіздің статистикасы, үлгерім мен прогрестің аналитикасы.",
+    "text_3": "ҰБТ-ға дайындықтың жеке жоспары.",
+    "btn": "Тегін бастау"
   },
   "learn": {
     "title": {
@@ -145,14 +145,14 @@
   },
   "teachers": {
     "title": {
-      "span_1": " Мұғалімдер Мен Оқушыларға Арналған",
+      "span_1": "Мұғалімдер Мен Оқушыларға Арналған",
       "span_2": "Құралдар"
     },
     "subtitle": "Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit."
   },
   "tariff": {
     "title": "ТАРИФТАР",
-    "kaspi": "ДОСТУПНА ОПЛАТА В РАССРОЧКУ ЧЕРЕЗ КАСПИ",
+    "kaspi": "КАСПИЙ АРҚЫЛЫ БӨЛІП ТӨЛЕУ ҚОЛ ЖЕТІМДІ",
     "tariff_title_1": "Негізгі пәндер",
     "tariff_title_2": "1 Таңдау пәні",
     "tariff_title_3": "Pro. 5 пән",
@@ -169,12 +169,13 @@
     "month": "/айына"
   },
   "school": {
-    "title_1": "Для",
-    "title_2": "школ",
-    "title_3": "и для",
-    "title_4": "образовательных центров",
-    "subtitle": "Вместе с Testhub вы можете провести пробные экзамены любого типа и формата в электронном виде на удобном для ваших студентов  языке.",
-    "btn_text": "Подробнее"
+    "title_1": "",
+    "title_2": "Мектептер",
+    "title_3": "мен",
+    "title_4": "оқу орталықтары",
+    "title_5": "үшін",
+    "subtitle": "Testhub көмегімен сіз студенттеріңізге ыңғайлы тілде кез келген түрдегі және форматтағы тәжірибе емтихандарын электронды түрде өткізе аласыз.",
+    "btn_text": "Толығырақ"
   },
   "faq": {
     "text_1": "Пробный Тест форматы қандай?",

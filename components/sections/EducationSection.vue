@@ -17,7 +17,7 @@
         <div class="subtitle">
           {{ $t('education.subtitle') }}
         </div>
-        <be-button class="btn-more btn-mobile" btn-size="large" btn-type="primary">
+        <be-button class="btn-more btn-mobile" btn-size="large" btn-type="primary" link="https://ent.testhub.kz/">
           {{ $t('education.btn') }}
         </be-button>
       </div>

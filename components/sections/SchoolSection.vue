@@ -10,9 +10,10 @@
           <span>{{ $t('school.title_2') }}</span>
           {{ $t('school.title_3') }}
           <span>{{ $t('school.title_4') }}</span>
+          {{ $t('school.title_5') }}
         </div>
         <div class="subtitle">{{ $t('school.subtitle') }}</div>
-        <be-button class="btn-mobile" btn-type="primary" btn-size="large">{{ $t('school.btn_text') }}</be-button>
+        <be-button class="btn-mobile" btn-type="primary" btn-size="large" link="https://wa.me/77056858629">{{ $t('school.btn_text') }}</be-button>
       </div>
     </div>
   </div>

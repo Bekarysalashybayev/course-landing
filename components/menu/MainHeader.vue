@@ -166,10 +166,6 @@ header {
             gap: 3rem;
             margin-top: 2rem;
             flex-direction: column;
-
-            .link {
-              font-size: 18px;
-            }
           }
 
           .btn-list {
@@ -178,12 +174,14 @@ header {
             margin-bottom: 2rem;
 
             .btn {
+              font-size: 20px;
+              width: 200px;
+
               &.first {
                 border: 1px solid $primary;
                 color: $primary;
                 background-color: transparent;
               }
-              width: 150px;
             }
           }
         }
@@ -194,7 +192,7 @@ header {
       gap: 4rem;
 
       .link {
-        font-size: 2rem;
+        font-size: 20px;
         cursor: pointer;
 
         &:not(.active):hover {

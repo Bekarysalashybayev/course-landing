@@ -8,7 +8,7 @@
       {{ $t('main.subtitle') }}
     </div>
     <div class="btn-list">
-      <be-button btn-type="primary-1" btn-size="large" class="btn">
+      <be-button btn-type="primary-1" btn-size="large" class="btn" link="https://ent.testhub.kz/">
         {{ $t('main.btn') }}
       </be-button>
       <play-button class="btn-play"/>

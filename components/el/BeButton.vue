@@ -1,5 +1,5 @@
 <template>
-  <button :class="['be-button', classes]" @click="$emit('click')">
+  <button :class="['be-button', classes]" @click="onClick">
     <slot/>
   </button>
 </template>
@@ -12,13 +12,23 @@ const props = withDefaults(defineProps<{
   btnType: BtnType,
   btnSize?: BtnSize,
   rounded?: boolean,
+  link?: string
 }>(), {
   btnSize: 'medium',
   btnType: 'primary',
   rounded: true
 })
 
-defineEmits(['click'])
+const emit = defineEmits(['click'])
+
+const onClick = () => {
+  if (props.link) {
+    window.open(props.link, "blank");
+  }else {
+    emit('click')
+  }
+}
+
 
 const classes = computed(() => {
   return {

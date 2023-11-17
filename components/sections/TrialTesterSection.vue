@@ -34,11 +34,11 @@
             {{ $t('trial.text_3') }}
           </be-icon-text>
         </div>
-        <be-button class="btn-more desktop" btn-size="large" btn-type="primary">
+        <be-button class="btn-more desktop" btn-size="large" btn-type="primary" link="https://wa.me/77056858629">
           {{ $t('trial.btn') }}
         </be-button>
       </div>
-      <be-button class="btn-more mobile btn-mobile" btn-size="large" btn-type="primary">
+      <be-button class="btn-more mobile btn-mobile" btn-size="large" btn-type="primary" link="https://wa.me/77056858629">
         {{ $t('trial.btn') }}
       </be-button>
     </div>
