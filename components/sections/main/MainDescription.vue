@@ -3,6 +3,7 @@
     <div class="title">
       {{ $t('main.title.span_1') }}
       <span>{{ $t('main.title.span_2') }}</span>
+      {{ $t('main.title.span_3') }}
     </div>
     <div class="subtitle">
       {{ $t('main.subtitle') }}
