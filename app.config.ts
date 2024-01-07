@@ -24,7 +24,7 @@ export default defineAppConfig({
         {
             rel: 'icon',
             type: 'image/svg+xml',
-            href: '/favicon.svg'
+            href: '/favicon.ico'
         },
         {
             rel: 'preload',
