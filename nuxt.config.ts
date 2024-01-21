@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { resolve, dirname } from 'node:path'
-import { fileURLToPath } from 'url'
+import {resolve, dirname} from 'node:path'
+import {fileURLToPath} from 'url'
 import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineNuxtConfig({
@@ -9,7 +9,11 @@ export default defineNuxtConfig({
     modules: [
         'nuxt-lazy-load',
         '@nuxtjs/i18n',
+        'nuxt-gtag'
     ],
+    gtag: {
+        id: 'G-PBHW7Z3JD5'
+    },
     i18n: {
         locales: ['kz', 'ru'],
         defaultLocale: 'ru',

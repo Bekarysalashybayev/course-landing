@@ -5,6 +5,8 @@
 </template>
 
 <script setup lang="ts">
+const { gtag } = useGtag()
+
 type BtnType = "primary" | "light" | 'primary-1' | 'yellow'
 type BtnSize = "small" | "medium" | 'large'
 
@@ -22,9 +24,13 @@ const props = withDefaults(defineProps<{
 const emit = defineEmits(['click'])
 
 const onClick = () => {
+
   if (props.link) {
+    if (props.link === 'https://ent.testhub.kz/') {
+      gtag('event', 'ent_btn_clicked');
+    }
     window.open(props.link, "blank");
-  }else {
+  } else {
     emit('click')
   }
 }
