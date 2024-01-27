@@ -28,7 +28,7 @@ import PlayButton from "~/components/el/PlayButton.vue";
 @use "@/assets/scss/colors" as *;
 
 .main-description {
-  max-width: 60rem;
+  max-width: 70rem;
   min-width: 400px;
   position: relative;
   z-index: 10;
@@ -68,8 +68,10 @@ import PlayButton from "~/components/el/PlayButton.vue";
       font-size: 1.6rem;
     }
 
+
     .btn-list {
-      gap: 2rem;
+      flex-direction: column;
+      align-items: flex-start;
 
       .btn {
         padding-top: 2rem;
@@ -79,20 +81,19 @@ import PlayButton from "~/components/el/PlayButton.vue";
     }
   }
 
-  @media screen and (max-width: $mobile) {
-    max-width: 100%;
-  }
   @media screen and (max-width: $tab-1) {
     min-width: 100%;
 
     .btn-list {
-      flex-direction: column;
-      align-items: flex-start;
 
       .btn {
         font-size: 1.8rem;
       }
     }
+  }
+
+  @media screen and (max-width: $mobile) {
+    max-width: 100%;
   }
 }
 </style>
