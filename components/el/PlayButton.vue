@@ -8,7 +8,7 @@
         <defs>
           <linearGradient id="paint0_linear_1898_12166" x1="19.8154" y1="9.27043" x2="-6.36457" y2="9.27043"
                           gradientUnits="userSpaceOnUse">
-            <stop stop-color="#21C8F6"/>
+            <stop stop-color="#21C8F6" offset="1"/>
             <stop offset="1" stop-color="#637BFF"/>
           </linearGradient>
         </defs>
@@ -20,7 +20,9 @@
 
 <script setup lang="ts">
 const emit = defineEmits(['click'])
-const onClick = () => emit('click')
+const onClick = () => {
+  window.open('https://youtu.be/7K0rwDXRGYE', "blank")
+}
 </script>
 
 <style scoped lang="scss">
@@ -47,10 +49,12 @@ button {
   }
 
   &:hover {
-    opacity: .9;
+    opacity: .8;
+    color: $primary;
+
   }
 
-  @media screen and (max-width: 1160px){
+  @media screen and (max-width: 1160px) {
     font-size: 1.8rem;
 
     .icon {
