@@ -13,7 +13,13 @@
           {{ $t('school.title_5') }}
         </div>
         <div class="subtitle">{{ $t('school.subtitle') }}</div>
-        <be-button class="btn-mobile" btn-type="primary" btn-size="large" link="https://wa.me/77056858629">{{ $t('school.btn_text') }}</be-button>
+        <be-button
+            class="btn-mobile"
+            btn-type="primary"
+            btn-size="large"
+            link="https://drive.google.com/file/d/1F-eO9umOTnn1NsMM2tftcUSZaIK35Pe0/view?usp=sharing">
+          {{ $t('school.btn_text') }}
+        </be-button>
       </div>
     </div>
   </div>
@@ -45,7 +51,7 @@ import BeButton from "~/components/el/BeButton.vue";
   }
 
   &__content {
-      max-width: 600px;
+    max-width: 600px;
   }
 
 
