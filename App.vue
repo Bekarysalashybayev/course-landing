@@ -10,13 +10,14 @@ const appConfig = useAppConfig()
 const route = useRoute()
 
 const locale = computed(() => {
-  if (route.fullPath.includes('kz')) return 'kz'
-  return 'ru'
+  if (route.fullPath.includes('ru')) return 'ru'
+  return 'kz'
 })
 
 watch(() => locale.value, () => {
   setHead()
 })
+
 
 const setHead = () => {
   useHead({
