@@ -5,7 +5,6 @@ export default defineAppConfig({
     },
     meta: [
         {
-            hid: 'robots',
             name: 'robots',
             content: 'index, follow'
         },

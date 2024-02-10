@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     },
     i18n: {
         locales: ['kz', 'ru'],
-        defaultLocale: 'ru',
+        defaultLocale: 'kz',
         vueI18n: './service/i18n.config.ts',
     },
     lazyLoad: {

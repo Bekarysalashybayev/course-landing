@@ -3,7 +3,7 @@ import ru from '../locales/ru.json'
 
 export default defineI18nConfig(() => ({
     legacy: true,
-    fallbackLocale: 'ru',
+    fallbackLocale: 'kz',
     messages: {
         kz: kk,
         ru: ru
