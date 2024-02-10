@@ -1,5 +1,4 @@
 export default defineAppConfig({
-    title: "ҰБТ 2024, Онлайн Байқау Сынағы, Жаңа формат және Тегін Тесттер, Қатемен жұмыс және Пәндік тест.",
     htmlAttrs: {
         lang: 'en',
     },
