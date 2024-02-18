@@ -15,7 +15,16 @@ export default defineNuxtConfig({
         id: 'G-PBHW7Z3JD5'
     },
     i18n: {
-        locales: ['kz', 'ru'],
+        locales: [
+            {
+                code: 'kz',
+                iso: 'kk-KZ'
+            },
+            {
+                code: 'ru',
+                iso: 'ru-RU'
+            },
+        ],
         defaultLocale: 'kz',
         vueI18n: './service/i18n.config.ts',
     },

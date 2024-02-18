@@ -18,15 +18,26 @@ watch(() => locale.value, () => {
   setHead()
 })
 
+const i18nHead = useLocaleHead({
+  addSeoAttributes: {
+    canonicalQueries: ['foo']
+  }
+})
+
 
 const setHead = () => {
   useHead({
     ...appConfig,
+    htmlAttrs: {
+      lang: i18nHead.value.htmlAttrs.lang
+    },
+    link: [...(i18nHead.value.link || [])],
     title: locale.value === 'kz' ?
         'ҰБТ Пробный тест, Тегін пробный тест 2024, Жаңа формат, Қатемен жұмыс & Пәндік тест.'
         :
         'ЕНТ Пробный Тест, ЕНТ 2024, Новый формат, Предметный тест и Работа с ошибками.',
     meta: [
+      ...(i18nHead.value.meta),
       {
         hid: 'description',
         name: 'description',
