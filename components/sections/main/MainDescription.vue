@@ -16,9 +16,10 @@
           btn-type="primary-1"
           btn-size="large"
           class="btn"
-          link="https://ent.testhub.kz/"
       >
-        <span itemprop="name">{{ $t('main.btn') }}</span>
+        <a href="https://ent.testhub.kz/" itemprop="url" target="blank">
+          <span itemprop="name">{{ $t('main.btn') }}</span>
+        </a>
       </be-button>
       <play-button class="btn-play"/>
     </div>
@@ -40,6 +41,10 @@ import PlayButton from "~/components/el/PlayButton.vue";
   min-width: 400px;
   position: relative;
   z-index: 10;
+
+  a {
+    color: inherit;
+  }
 
   .title {
     color: $color-8;
