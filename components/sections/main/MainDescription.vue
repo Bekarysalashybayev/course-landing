@@ -42,8 +42,14 @@ import PlayButton from "~/components/el/PlayButton.vue";
   position: relative;
   z-index: 10;
 
+  .btn {
+    padding: 0;
+  }
+
   a {
+    display: block;
     color: inherit;
+    padding: 2rem 4rem;
   }
 
   .title {
