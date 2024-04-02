@@ -15,7 +15,6 @@
       </svg>
     </span>
     <span itemprop="name">{{ $t('main.play') }}</span>
-    <span itemprop="name">{{ $t('main.play') }}</span>
   </button>
 </template>
 
