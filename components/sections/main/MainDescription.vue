@@ -9,8 +9,16 @@
       {{ $t('main.subtitle') }}
     </div>
     <div class="btn-list">
-      <be-button btn-type="primary-1" btn-size="large" class="btn" link="https://ent.testhub.kz/">
-        {{ $t('main.btn') }}
+      <be-button
+          itemprop="action"
+          itemscope
+          itemtype="https://schema.org/Action"
+          btn-type="primary-1"
+          btn-size="large"
+          class="btn"
+          link="https://ent.testhub.kz/"
+      >
+        <span itemprop="name">{{ $t('main.btn') }}</span>
       </be-button>
       <play-button class="btn-play"/>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <button @click="onClick">
+  <button @click="onClick" itemprop="action" itemscope itemtype="https://schema.org/Action">
     <span class="icon">
       <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -14,7 +14,8 @@
         </defs>
       </svg>
     </span>
-    <span>{{ $t('main.play') }}</span>
+    <span itemprop="name">{{ $t('main.play') }}</span>
+    <span itemprop="name">{{ $t('main.play') }}</span>
   </button>
 </template>
 
