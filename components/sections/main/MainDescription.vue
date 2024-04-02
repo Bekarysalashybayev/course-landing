@@ -93,9 +93,12 @@ import PlayButton from "~/components/el/PlayButton.vue";
       align-items: flex-start;
 
       .btn {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
         font-size: 1.8rem;
+
+        a {
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        }
       }
     }
   }
